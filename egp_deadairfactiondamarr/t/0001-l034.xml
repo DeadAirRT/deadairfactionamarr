@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="34">
+
+<page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+<!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
+ <t id="100">Damarr Empire</t>
+ <t id="101">The Damarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Damarrian politics and the Damarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Damarrians embrace slavery.</t>
+ <t id="102">DAM</t>
+ <t id="103">Empire Capital Equipment Licence</t>
+ <t id="104">Empire Capital Ship Licence</t>
+ <t id="105">Warrior of the Empire</t>
+ <t id="106">Friend of the Empire</t>
+ <t id="107">Empire General Use Equipment Licence</t>
+ <t id="108">Empire General Use Ship Licence</t>
+ <t id="109">Empire Military Equipment Licence</t>
+ <t id="110">Empire Military Ship Licence</t>
+ <t id="111">Empire Police Licence</t>
+ <t id="112">Empire Capital Ship Building Module Licence</t>
+ <t id="113">Empire Ancillary Ship Building Module Licence</t>
+ <t id="114">Empire Advanced Module Licence</t>
+ <t id="115">Empire Basic Module Licence</t>
+ <t id="116">Empire Intermediate Module Licence</t>
+ <t id="117">Empire Trade Offer Subscription</t>
+ <t id="118">Empire</t>
+ <t id="119">Empire Ship Sale Contract</t>
+ <t id="120">(T5ZI-S){20403,20}{20404,5}{20403,25}{20403,9}{20005,8004}{20403,19}</t>
+ <t id="121">(N-8YET){20403,14}{20005,8004}{20404,8}{20403,25}{20403,5}{20403,20}</t>
+ <t id="122">(MO-GZ5){20403,13}{20403,15}{20005,8004}{20403,7}{20403,25}{20404,5}</t>
+ <t id="123">(1DQ1-A){20404,1}{20403,4}{20403,17}{20404,1}{20005,8004}{20403,1}</t>
+ <t id="124">(8WA-Z6){20404,8}{20403,23}{20403,1}{20005,8004}{20403,26}{20404,6}</t>
+ <t id="125">(5BTK-M){20404,5}{20403,2}{20403,20}{20403,11}{20005,8004}{20403,13}</t>
+ <t id="126">(Y-OMTZ){20403,25}{20005,8004}{20403,15}{20403,13}{20403,20}{20403,25}</t>
+ <t id="127">DA Damarr Noble</t>
+ <t id="128">DA Damarr Noble \({20102,2011}\)</t>
+ <t id="129">You are a young Amarrian noble tired of your comfortable life. You decide to venture out on your own to see what trouble you can get into.</t>
+ <t id="130">(Y-MPWL){20403,25}{20005,8004}{20403,13}{20403,16}{20403,23}{20403,12}</t>
+ <t id="131">xxx</t>
+ <t id="132">xxx</t>
+</page>
+</language>
