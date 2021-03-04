@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="GS_DAM_Adv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="Start" namespace="this" module="x4ep1_gamestart_dam_adv">
+      <conditions>
+        <event_cue_signalled cue="md.Setup.GameStart" />
+      </conditions>
+      <actions>
+        <debug_text text="'Starting DAM scientific gamestart'"/>
+      </actions>
+      <cues>
+
+        <cue name="SetupHQ">
+          <actions>
+            <find_sector name="$HQSector" macro="macro.cluster_dam5_sector001_macro" required="true"/>
+            <find_station name="$HQ" space="$HQSector" owner="faction.player" multiple="false" required="true"/>
+          </actions>
+          <cues>
+            <cue name="SetupManager" onfail="cancel">
+              <conditions>
+                <check_value value="$HQ"/>
+              </conditions>
+              <delay exact="1s"/>
+              <actions>
+                <create_control_entity object="$HQ" post="controlpost.manager">
+                  <select tags="controlpost.manager.tag" faction="faction.player"/>
+                  <owner exact="$HQ.owner"/>
+                </create_control_entity>
+              </actions>
+            </cue>
+          </cues>
+        </cue>
+        <cue name="SetupMap">
+          <actions>
+            <!-- set part of the map to known, ring + dam -->
+            <set_value name="$InitialMap" exact="[
+              macro.cluster_dam1_sector001_macro, macro.cluster_dam2_sector001_macro, macro.cluster_dam3_sector001_macro, macro.cluster_dam4_sector001_macro, 
+			  macro.cluster_dam5_sector001_macro, macro.cluster_dam6_sector001_macro, macro.cluster_dam7_sector001_macro, macro.cluster_14_sector001_macro,
+			  macro.cluster_29_sector001_macro, macro.cluster_29_sector002_macro, macro.cluster_08_sector001_macro, macro.cluster_34_sector001_macro,
+			  macro.cluster_09_sector001_macro, macro.cluster_18_sector001_macro, macro.cluster_10_sector001_macro, macro.cluster_22_sector001_macro,
+			  macro.cluster_11_sector001_macro, macro.cluster_24_sector001_macro, macro.cluster_12_sector001_macro, macro.cluster_13_sector001_macro]"/>
+            <run_actions ref="md.LIB_Generic.UncoverMap_SectorsAndGates_Call" >
+              <param name="InitialMap" value="$InitialMap"/>
+              <param name="UncoverShipyardsAndWharfs" value="true"/>
+              <param name="UncoverTradeStations" value="true"/>
+            </run_actions>
+          </actions>
+        </cue>
+      </cues>
+    </cue>    
+  </cues>
+</mdscript>

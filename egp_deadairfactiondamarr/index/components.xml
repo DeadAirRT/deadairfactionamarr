@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+	<entry name="Cluster_DAM1" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam1" />
+	<entry name="Cluster_DAM2" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam2" />
+	<entry name="Cluster_DAM3" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam3" />
+	<entry name="Cluster_DAM4" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam4" />
+	<entry name="Cluster_DAM5" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam5" />
+	<entry name="Cluster_DAM6" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam6" />
+	<entry name="Cluster_DAM7" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam7" />
+	<entry name="Cluster_DAM8" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam8" />
+</add>
+</diff>

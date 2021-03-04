@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff name="X4Ep1_Mentor_Subscriptions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<add sel="//mdscript[@name='X4Ep1_Mentor_Subscriptions']/cues/cue[@name='Start']/actions/find_sector" pos="after">
+	<do_if value="player.module == 'x4ep1_gamestart_dam_adv'">
+		<find_sector name="$HQSector" macro="macro.cluster_dam5_sector001_macro"/>
+	</do_if>
+</add>
+<add sel="//mdscript[@name='X4Ep1_Mentor_Subscriptions']/cues/cue[@name='Start']/actions/set_value[@name='$HQPosition']" pos="after">
+	<do_if value="player.module == 'x4ep1_gamestart_dam_adv'">
+		<set_value name="$HQPosition" exact="position.[0km, 0km, -50km]"/>
+	</do_if>
+</add>
+<add sel="//mdscript[@name='X4Ep1_Mentor_Subscriptions']/cues/cue[@name='Start']/cues/cue[@name='Initialise']/actions/do_if[contains(@value,x4ep1_gamestart_scientist)]" pos="after">
+			<do_elseif value="player.module == 'x4ep1_gamestart_dam_adv'">
+              <!--Specialised gamestart where HQ is present (see god.xml, x4ep1_gamestart_scientist_hq) -->
+              <set_value name="md.Signal_Leaks.Manager.$SuppressSignalLeakGeneration" exact="false"/>
+              <find_station_by_true_owner name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" faction="faction.player" space="$HQSector" required="true"/>
+              <do_if value="$HQ">
+                <!-- make sure plot is payed and station setup correctly -->
+                <include_actions ref="SetupHQ"/>
+                <!--TODO @Owen move to SetupHQ?-->
+                <find_object_component name="$ResearchModule" macro="macro.landmarks_player_hq_01_research_macro" object="$HQ"/>
+                <set_object_name object="$ResearchModule" page="20104" line="101701" comment="Unknown module to Research Module"/>
+                <!--Tank room already created in the gamestart (see gamestart.xml) -->
+                <find_object_component name="$MentorRoom" macro="macro.room_gen_boronoffice_01_macro" object="$HQ"/>
+                <do_if value="$MentorRoom and $MentorRoom.dynamicinterior">
+                  <set_value name="$Interior" exact="$MentorRoom.dynamicinterior"/>
+                  <debug_text text="'Setting HQ tank room to persistent'"/>
+                  <set_dynamic_interior_persistent object="$HQ" interior="$Interior" persistent="true"/>
+                  <do_for_each name="$InteriorRoom" in="$Interior.rooms">
+                    <do_if value="$InteriorRoom.type == roomtype.corridor">
+                      <set_value name="$Corridor" exact="$InteriorRoom"/>
+                      <break/>
+                    </do_if>
+                  </do_for_each>
+                </do_if>
+                <set_entity_traits entity="$Boron_Mentor" customhandler="true"/>
+                <signal_cue cue="Manage_Boron_Tank_Room"/>
+                <signal_cue cue="UnlockResearch"/>
+                <set_value name="$BoronMet" exact="true"/>
+              </do_if>
+            </do_elseif>
+</add>
+</diff>

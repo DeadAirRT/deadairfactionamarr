@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <!-- default theme for factions --> 
+  <add sel="/themes/theme[@id='painttheme_race_default']">    
+    <group faction="damarr" paintmod="paintmod_damarr_plain" />
+  </add>
+  
+  <!-- ship variation theme for all factions -->    
+  <add sel="/themes/theme[@id='painttheme_race_ship']">
+    <group faction="damarr" selection="random" paintmod="">
+      <select paintmod="paintmod_hexagon_yellow" weight="5" />
+	  <select paintmod="paintmod_hexagon3_yellow" weight="5" />
+	  <select paintmod="paintmod_0024_damarr" weight="25" />
+	  <select paintmod="paintmod_0025_damarr" weight="25" />
+	  <select paintmod="paintmod_0026_damarr" weight="25" />
+      <select paintmod="paintmod_thatched_yellow" weight="5" />
+	  <select paintmod="paintmod_damarr_plain" weight="25" />
+    </group>
+  </add>  
+</diff>
+
+
