@@ -3,43 +3,43 @@
 <add sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
 	<connection name="Cluster_DAM1_connection" ref="clusters">
 		<offset>
-			<position x="120000000" y="0" z="0" />
+			<position x="135000000" y="0" z="-8660000" />
         </offset>
         <macro ref="Cluster_DAM1_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM2_connection" ref="clusters">
 		<offset>
-			<position x="120000000" y="0" z="-17320000" />
+			<position x="135000000" y="0" z="-25980000" />
         </offset>
         <macro ref="Cluster_DAM2_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM3_connection" ref="clusters">
 		<offset>
-			<position x="135000000" y="0" z="8660000" />
+			<position x="165000000" y="0" z="8660000" />
         </offset>
         <macro ref="Cluster_DAM3_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM4_connection" ref="clusters">
 		<offset>
-			<position x="135000000" y="0" z="-8660000" />
+			<position x="165000000" y="0" z="-25980000" />
         </offset>
         <macro ref="Cluster_DAM4_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM5_connection" ref="clusters">
 		<offset>
-			<position x="135000000" y="0" z="-25980000" />
+			<position x="165000000" y="0" z="-60620000" />
         </offset>
         <macro ref="Cluster_DAM5_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM6_connection" ref="clusters">
 		<offset>
-			<position x="150000000" y="0" z="0" />
+			<position x="195000000" y="0" z="-8660000" />
         </offset>
         <macro ref="Cluster_DAM6_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAM7_connection" ref="clusters">
 		<offset>
-			<position x="150000000" y="0" z="-17320000" />
+			<position x="195000000" y="0" z="-25980000" />
         </offset>
         <macro ref="Cluster_DAM7_macro" connection="galaxy" />
 	</connection>
