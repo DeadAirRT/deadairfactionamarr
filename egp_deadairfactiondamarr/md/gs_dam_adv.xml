@@ -33,12 +33,12 @@
         <cue name="SetupMap">
           <actions>
             <!-- set part of the map to known, ring + dam -->
-            <set_value name="$InitialMap" exact="[
-              macro.cluster_dam1_sector001_macro, macro.cluster_dam2_sector001_macro, macro.cluster_dam3_sector001_macro, macro.cluster_dam4_sector001_macro, 
-			  macro.cluster_dam5_sector001_macro, macro.cluster_dam6_sector001_macro, macro.cluster_dam7_sector001_macro, macro.cluster_14_sector001_macro,
-			  macro.cluster_29_sector001_macro, macro.cluster_29_sector002_macro, macro.cluster_08_sector001_macro, macro.cluster_34_sector001_macro,
-			  macro.cluster_09_sector001_macro, macro.cluster_18_sector001_macro, macro.cluster_10_sector001_macro, macro.cluster_22_sector001_macro,
-			  macro.cluster_11_sector001_macro, macro.cluster_24_sector001_macro, macro.cluster_12_sector001_macro, macro.cluster_13_sector001_macro]"/>
+            <set_value name="$AllSectors" exact="[]" />
+			<set_value name="$InitialMap" exact="[]"/>
+			<find_sector name="$AllSectors" space="player.galaxy" multiple="true" />
+			<do_for_each name="$Sector" in="$AllSectors">
+				<append_to_list name="$InitialMap" exact="$Sector.macro"/>
+			</do_for_each>
             <run_actions ref="md.LIB_Generic.UncoverMap_SectorsAndGates_Call" >
               <param name="InitialMap" value="$InitialMap"/>
               <param name="UncoverShipyardsAndWharfs" value="true"/>

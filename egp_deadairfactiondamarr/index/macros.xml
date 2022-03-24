@@ -9,5 +9,34 @@
 	<entry name="cluster_DAM6_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DAM7_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DAM8_sector*" value="maps\xu_ep2_universe\sectors" />
+	<!-- Weapons -->
+	<entry name="turret_dam_l_beam_multifrequency_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_l_beam_multifrequency_mk1_macro" />
+	<entry name="turret_dam_l_beam_radio_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_l_beam_radio_mk1_macro" />
+	<entry name="turret_dam_l_beam_standard_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_l_beam_standard_mk1_macro" />
+	<entry name="turret_dam_m_beam_01_multifrequency_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_01_multifrequency_mk1_macro" />
+	<entry name="turret_dam_m_beam_01_radio_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_01_radio_mk1_macro" />
+	<entry name="turret_dam_m_beam_01_standard_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_01_standard_mk1_macro" />
+	<entry name="turret_dam_m_beam_02_multifrequency_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_02_multifrequency_mk1_macro" />
+	<entry name="turret_dam_m_beam_02_radio_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_02_radio_mk1_macro" />
+	<entry name="turret_dam_m_beam_02_standard_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_m_beam_02_standard_mk1_macro" />
+	<entry name="weapon_dam_l_multifrequency_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\capital\macros\weapon_dam_l_multifrequency_macro" />
+	<entry name="weapon_dam_l_radio_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\capital\macros\weapon_dam_l_radio_macro" />
+	<entry name="weapon_dam_l_standard_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\capital\macros\weapon_dam_l_standard_macro" />
+	<entry name="weapon_dam_xl_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\capital\macros\weapon_dam_xl_macro" />
+	<!-- T3BC -->
+	<entry name="turret_dam_t3bc_beam_multifrequency_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_t3bc_beam_multifrequency_macro" />
+	<entry name="turret_dam_t3bc_beam_radio_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_t3bc_beam_radio_macro" />
+	<entry name="turret_dam_t3bc_beam_standard_macro" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\macros\turret_dam_t3bc_beam_standard_macro" />
+	<entry name="engine_dam_t3bc_macro" value="extensions\egp_deadairfactiondamarr\assets\props\engines\macros\engine_dam_t3bc_macro" />
+	<!-- Bullets -->
+	<entry name="bullet_dam_l_beam_multifrequency_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_l_beam_multifrequency_mk1_macro" />
+	<entry name="bullet_dam_l_beam_radio_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_l_beam_radio_mk1_macro" />
+	<entry name="bullet_dam_l_beam_standard_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_l_beam_standard_mk1_macro" />
+	<entry name="bullet_dam_m_beam_multifrequency_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_m_beam_multifrequency_mk1_macro" />
+	<entry name="bullet_dam_m_beam_radio_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_m_beam_radio_mk1_macro" />
+	<entry name="bullet_dam_m_beam_standard_mk1_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_dam_m_beam_standard_mk1_macro" />
+	<entry name="bullet_weapon_dam_l_multifrequency_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_weapon_dam_l_multifrequency_macro" />
+	<entry name="bullet_weapon_dam_l_radio_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_weapon_dam_l_radio_macro" />
+	<entry name="bullet_weapon_dam_l_standard_macro" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\macros\bullet_weapon_dam_l_standard_macro" />
 </add>
 </diff>

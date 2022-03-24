@@ -37,6 +37,10 @@
 							<set_faction_relation faction="faction.damarr" otherfaction="faction.mindatar" value="-1.0" />
 							<set_faction_relation faction="faction.mindatar" otherfaction="faction.damarr" value="-1.0" />
 						</do_if>
+						<do_if value="(faction.terran?)">
+							<set_faction_relation faction="faction.damarr" otherfaction="faction.terran" value="-0.32" />
+							<set_faction_relation faction="faction.terran" otherfaction="faction.damarr" value="-0.32" />
+						</do_if>
 						<set_value name="$HasRun" exact="true" />
 						<debug_text text="'MOD: DeadAirFactionDamarr -- Relations Set'" context="false" filter="scripts" />
 					</actions>

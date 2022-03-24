@@ -124,6 +124,14 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
+  <ship id="damarr_escort_l" group="dam_escort_l">
+    <category tags="[military, escort, mission]" faction="[damarr]" size="ship_l"/>
+    <pilot>
+      <select faction="damarr" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_large_military"/>
+    <people ref="argon_elite_military_crew"/>
+  </ship>
   <ship id="damarr_frigate_m" group="dam_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[damarr]" size="ship_m"/>
     <pilot>

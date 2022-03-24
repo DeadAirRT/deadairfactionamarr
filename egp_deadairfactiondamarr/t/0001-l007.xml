@@ -3,8 +3,8 @@
 
 <page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
 <!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">Damarr Empire</t>
- <t id="101">The Damarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Damarrian politics and the Damarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Damarrians embrace slavery.</t>
+ <t id="100">Amarr Empire</t>
+ <t id="101">The Amarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Amarrian politics and the Amarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Amarrians embrace slavery.</t>
  <t id="102">DAM</t>
  <t id="103">Empire Capital Equipment Licence</t>
  <t id="104">Empire Capital Ship Licence</t>
@@ -30,11 +30,30 @@
  <t id="124">(8WA-Z6){20404,8}{20403,23}{20403,1}{20005,8004}{20403,26}{20404,6}</t>
  <t id="125">(5BTK-M){20404,5}{20403,2}{20403,20}{20403,11}{20005,8004}{20403,13}</t>
  <t id="126">(Y-OMTZ){20403,25}{20005,8004}{20403,15}{20403,13}{20403,20}{20403,25}</t>
- <t id="127">DA Damarr Noble</t>
- <t id="128">DA Damarr Noble \({20102,2011}\)</t>
+ <t id="127">DA Amarr Noble</t>
+ <t id="128">DA Amarr Noble \({20102,2011}\)</t>
  <t id="129">You are a young Amarrian noble tired of your comfortable life. You decide to venture out on your own to see what trouble you can get into.</t>
  <t id="130">(Y-MPWL){20403,25}{20005,8004}{20403,13}{20403,16}{20403,23}{20403,12}</t>
  <t id="131">xxx</t>
  <t id="132">xxx</t>
+ <!-- Weapons -->
+ <t id="200">{4816301,102}(DAM) {20111,5031}(L) Multifrequency {20105,4161}(Beam Turret)</t>
+ <t id="201">Multifrequency</t>
+ <t id="202">{4816301,102}(DAM) {20111,5031}(L) Radio {20105,4161}(Beam Turret)</t>
+ <t id="203">Radio</t>
+ <t id="204">{4816301,102}(DAM) {20111,5031}(L) Standard {20105,4161}(Beam Turret)</t>
+ <t id="205">Standard</t>
+ <t id="206">{4816301,102}(DAM) {20111,5021}(M) Multifrequency {20105,4161}(Beam Turret)</t>
+ <t id="207">{4816301,102}(DAM) {20111,5021}(M) Radio {20105,4161}(Beam Turret)</t>
+ <t id="208">{4816301,102}(DAM) {20111,5021}(M) Standard {20105,4161}(Beam Turret)</t>
+ <t id="209">{4816301,102}(DAM) {20111,5031}(L) Multifrequency {20105,1081}(Beam Emitter)</t>
+ <t id="210">{4816301,102}(DAM) {20111,5031}(L) Radio {20105,1081}(Beam Emitter)</t>
+ <t id="211">{4816301,102}(DAM) {20111,5031}(L) Standard {20105,1081}(Beam Emitter)</t>
+ <t id="212">{4816301,102}(DAM) {20111,3001}(XL) Judgement Electromagnetic Doomsday</t>
+ <!-- Weapon Description -->
+ <t id="300">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The multifrequency crystal attached randomly cycles the laser through the entire spectrum. The greatly increased damage comes at the cost of a significant reduction in range.</t>
+ <t id="301">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The radio crystal attached modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.</t>
+ <t id="302">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The standard crystal attached modulates the beam of a laser weapon into the visible light spectrum.</t>
+ <t id="303">The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place.</t>
 </page>
 </language>

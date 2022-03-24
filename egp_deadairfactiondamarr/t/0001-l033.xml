@@ -3,8 +3,8 @@
 
 <page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
 <!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">Empire de Damarr</t>
- <t id="101">L'Empire de Damarr est un patchwork tentaculaire de provinces de type féodal maintenues ensemble par la puissance de l'empereur. La religion a toujours joué un grand rôle dans la politique damarrienne et les Damarriens croient être les maîtres légitimes du monde, ce qui envenime leurs relations avec leurs voisins. Une autre source d'animosité de la part des autres empires est le fait que les Damarriens pratiquent l'esclavage.</t>
+ <t id="100">Empire de Amarr</t>
+ <t id="101">L'Empire de Amarr est un patchwork tentaculaire de provinces de type féodal maintenues ensemble par la puissance de l'empereur. La religion a toujours joué un grand rôle dans la politique damarrienne et les Amarriens croient être les maîtres légitimes du monde, ce qui envenime leurs relations avec leurs voisins. Une autre source d'animosité de la part des autres empires est le fait que les Amarriens pratiquent l'esclavage.</t>
  <t id="102">DAM</t>
  <t id="103">Licence d'équipement de l'Empire</t>
  <t id="104">Licence de vaisseaux capitaux de l'Empire</t>
@@ -30,11 +30,30 @@
  <t id="124">(8WA-Z6){20404,8}{20403,23}{20403,1}{20005,8004}{20403,26}{20404,6}</t>
  <t id="125">(5BTK-M){20404,5}{20403,2}{20403,20}{20403,11}{20005,8004}{20403,13}</t>
  <t id="126">(Y-OMTZ){20403,25}{20005,8004}{20403,15}{20403,13}{20403,20}{20403,25}</t>
- <t id="127">DA Noble Damarrien</t>
- <t id="128">DA Noble Damarrien \({20102,2011}\)</t>
+ <t id="127">DA Noble Amarrien</t>
+ <t id="128">DA Noble Amarrien \({20102,2011}\)</t>
  <t id="129">Vous êtes un jeune noble damarrien fatigué de votre vie confortable. Vous décidez de vous aventurer seul pour voir dans quel pétrin vous pouvez vous mettre.</t>
  <t id="130">(Y-MPWL){20403,25}{20005,8004}{20403,13}{20403,16}{20403,23}{20403,12}</t>
  <t id="131">xxx</t>
  <t id="132">xxx</t>
+ <!-- Weapons -->
+ <t id="200">{4816301,102}(DAM) {20111,5031}(L) Multifrequency {20105,4161}(Beam Turret)</t>
+ <t id="201">Multifrequency</t>
+ <t id="202">{4816301,102}(DAM) {20111,5031}(L) Radio {20105,4161}(Beam Turret)</t>
+ <t id="203">Radio</t>
+ <t id="204">{4816301,102}(DAM) {20111,5031}(L) Standard {20105,4161}(Beam Turret)</t>
+ <t id="205">Standard</t>
+ <t id="206">{4816301,102}(DAM) {20111,5021}(M) Multifrequency {20105,4161}(Beam Turret)</t>
+ <t id="207">{4816301,102}(DAM) {20111,5021}(M) Radio {20105,4161}(Beam Turret)</t>
+ <t id="208">{4816301,102}(DAM) {20111,5021}(M) Standard {20105,4161}(Beam Turret)</t>
+ <t id="209">{4816301,102}(DAM) {20111,5031}(L) Multifrequency {20105,1081}(Beam Emitter)</t>
+ <t id="210">{4816301,102}(DAM) {20111,5031}(L) Radio {20105,1081}(Beam Emitter)</t>
+ <t id="211">{4816301,102}(DAM) {20111,5031}(L) Standard {20105,1081}(Beam Emitter)</t>
+ <t id="212">{4816301,102}(DAM) {20111,3001}(XL) Judgement Electromagnetic Doomsday</t>
+ <!-- Weapon Description -->
+ <t id="300">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The multifrequency crystal attached randomly cycles the laser through the entire spectrum. The greatly increased damage comes at the cost of a significant reduction in range.</t>
+ <t id="301">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The radio crystal attached modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.</t>
+ <t id="302">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The standard crystal attached modulates the beam of a laser weapon into the visible light spectrum.</t>
+ <t id="303">The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place.</t>
 </page>
 </language>
