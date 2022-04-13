@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <diff> 
 	<add pos="prepend" sel="/stocks/stock[@id='default_trader']">
-		<ware ref="paintmod_hexagon_yellow" min="15" max="15" chance="100" />
-		<ware ref="paintmod_hexagon3_yellow" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0024_damarr" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0025_damarr" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0026_damarr" min="15" max="15" chance="100" />
-		<ware ref="paintmod_thatched_yellow" min="15" max="15" chance="100" />
-		<ware ref="paintmod_damarr_plain" min="15" max="15" chance="100" />
 	</add> 
 	<add pos="prepend" sel="/stocks/stock[@id='pirate_trader']">
-		<ware ref="paintmod_hexagon_yellow" min="15" max="15" chance="100" />
-		<ware ref="paintmod_hexagon3_yellow" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0024_damarr" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0025_damarr" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0026_damarr" min="15" max="15" chance="100" />
-		<ware ref="paintmod_thatched_yellow" min="15" max="15" chance="100" />
-		<ware ref="paintmod_damarr_plain" min="15" max="15" chance="100" />
 	</add>
 </diff>

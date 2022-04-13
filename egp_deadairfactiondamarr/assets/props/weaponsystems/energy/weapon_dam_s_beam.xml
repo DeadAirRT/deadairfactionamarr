@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<components>
+	<component name="weapon_dam_s_beam" class="weapon">
+		<source geometry="assets\props\WeaponSystems\energy\weapon_gen_s_beam_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part  platformcollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="part_mount" wreck="part_mount_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.5963103" y="0.5356392" z="2.001718"/>
+							<center x="0" y="0" z="1.981718"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part nocollision  ">
+				<offset>
+					<position x="0" y="0" z="0.7504869"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<parts>
+					<part name="part_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.631159" y="0.3190766" z="1.771919"/>
+							<center x="0" y="1.085646E-02" z="1.344704"/>
+						</size>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection03" tags="part platformcollision forceoutline iklink  " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10"/>
+							<max value="10"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<offset>
+					<position x="-2.41495E-09" y="-4.002282E-08" z="0.5293691"/>
+				</offset>
+				<parts>
+					<part name="part_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.6447586" y="0.369215" z="1.465979"/>
+							<center x="-1.167943E-07" y="9.962746E-08" z="1.164613"/>
+						</size>
+						<size_raw>
+							<max x="0.6447588" y="0.369215" z="0.3013664"/>
+							<center x="-1.167943E-07" y="9.962746E-08" z="1.164613"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Con_laser01" tags="laser " parent="part_gun">
+				<offset>
+					<position x="-8.395727E-08" y="5.046548E-04" z="2.437403"/>
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part nocollision forceoutline detail_m iklink  " parent="part_gun">
+				<offset>
+					<position x="2.41495E-09" y="8.814099E-02" z="1.339415"/>
+				</offset>
+				<parts>
+					<part name="detail_m_gun_decals">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.4293693" y="0.2488254" z="0.8313977"/>
+							<center x="0" y="7.450581E-09" z="0"/>
+						</size>
+						<size_raw>
+							<max x="0.4293693" y="0.2488254" z="0.8313977"/>
+							<center x="0" y="7.450581E-09" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part iklink animation fx nocollision textureanimation detail_l  " parent="part_gun">
+				<offset>
+					<position x="3.708964E-02" y="0" z="0.4222353"/>
+					<quaternion qx="-1.192257E-08" qy="1.968018E-02" qz="2.346839E-10" qw="0.9998063"/>
+				</offset>
+				<animations>
+					<animation name="weapon_firing" start="0" end="50"/>
+				</animations>
+				<parts>
+					<part name="anim_flames">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_fire_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.69623" y="0.4104509" z="0.8828979"/>
+							<center x="-2.544456E-02" y="-5.275301E-02" z="0.5195258"/>
+						</size>
+						<size_raw>
+							<max x="1.742099" y="0.463204" z="0.3647758"/>
+							<center x="-2.544438E-02" y="-5.275302E-02" z="0.5195258"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="1" value="-0"/>
+									<key frame="50" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="1" value="0.35"/>
+									<key frame="50" value="0"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="1" value="-0"/>
+									<key frame="50" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="1" value="0"/>
+									<key frame="50" value="0"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0.3"/>
+									<key frame="1" value="-0"/>
+									<key frame="48" value="0.4"/>
+									<key frame="50" value="0.7"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="WeaponCon_01" tags="component weapon small standard ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

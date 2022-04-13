@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<components>
+	<component name="bullet_dam_s_beam_multifrequency_mk1" class="bullet">
+		<source geometry="assets\fx\weaponFx\bullet_gen_s_beam_01_mk2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="70" b="56" range="5" shadowrange="5" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset/>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="bullet">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part animation textureanimation ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+				<parts>
+					<part name="anim_beam_core">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.490722E-02" y="3.490722E-02" z="0.5"/>
+							<center x="-2.715737E-06" y="2.317876E-05" z="0.5"/>
+						</size>
+						<size_raw>
+							<max x="3.490722E-02" y="3.490722E-02" z="0.5"/>
+							<center x="-2.715737E-06" y="2.317876E-05" z="0.5"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part animation textureanimation iklink " parent="anim_beam_core">
+				<animations>
+					<animation name="loop" start="1" end="10"/>
+				</animations>
+				<parts>
+					<part name="anim_beam_glow">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.bullets_fx_master"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.574969" y="8.574969" z="0.5"/>
+							<center x="-1.267085E-14" y="7.246881E-08" z="0.5"/>
+						</size>
+						<size_raw>
+							<max x="8.574969" y="8.574969" z="0"/>
+							<center x="-1.267085E-14" y="7.246881E-08" z="0.5"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="10" value="2"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part animation textureanimation ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="30"/>
+				</animations>
+				<parts>
+					<part name="anim_beam_bolt">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.beam_fx_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.5031286" y="0.5105361" z="0.5000004"/>
+							<center x="1.735204E-02" y="5.903184E-03" z="0.5000002"/>
+						</size>
+						<size_raw>
+							<max x="0.4280899" y="0.420979" z="0.5000002"/>
+							<center x="-0.0548979" y="-5.810019E-02" z="0.5000002"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="30" value="2"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="30" value="1.5"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="30" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_laser01" tags="laser">
+				<offset>
+					<position x="0" y="0" z="6.603815E-03"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>
