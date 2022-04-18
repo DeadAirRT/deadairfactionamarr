@@ -3,8 +3,8 @@
 	<macro name="bullet_weapon_dam_l_radio_macro" class="bullet">
 		<component ref="bullet_dam_l_beam_radio_mk1"/>
 		<properties>
-			<bullet speed="2.997925e+08" lifetime="1.1" range="32000" amount="1" barrelamount="2" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
-			<heat value="560"/>
+			<bullet speed="2.997925e+08" lifetime="1.2" range="32000" amount="1" barrelamount="2" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
+			<heat initial="3500" value="100"/>
 			<damagecurves>
 				<distance>
 					<point position="0" value="0.6"/>
@@ -14,8 +14,8 @@
 					<point position="1" value="1"/>
 				</distance>
 			</damagecurves>
-			<reload rate="0.1"/>
-			<damage value="5859.38" shield="5859.38"/>
+			<reload rate="0.2"/>
+			<damage value="2929.69" shield="2929.69"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>
