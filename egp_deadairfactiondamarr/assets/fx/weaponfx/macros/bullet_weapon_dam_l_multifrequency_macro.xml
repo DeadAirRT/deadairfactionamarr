@@ -7,15 +7,15 @@
 			<heat initial="3500" value="100"/>
 			<damagecurves>
 				<distance>
-					<point position="0" value="0.6"/>
-					<point position="0.25" value="0.7"/>
-					<point position="0.5" value="0.8"/>
-					<point position="0.75" value="1"/>
+					<point position="0" value="0.1"/>
+					<point position="0.25" value="0.2"/>
+					<point position="0.5" value="0.5"/>
+					<point position="0.8" value="1"/>
 					<point position="1" value="1"/>
 				</distance>
 			</damagecurves>
 			<reload rate="0.2"/>
-			<damage value="8495.63" shield="4101.56"/>
+			<damage value="5947.27" shield="2871.09"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>

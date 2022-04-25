@@ -47,6 +47,7 @@
 		<t id="140">xxx</t>
 		<t id="141">xxx</t>
 		<t id="142">xxx</t>
+		<t id="199">Amarr</t>
 		<!-- Equipment -->
 		<t id="200">{4816301,102}(AMR) {20111,5031}(L) Multifrequency Mega Beam Laser</t>
 		<t id="201">Multifrequency</t>
@@ -73,5 +74,11 @@
 		<t id="301">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The radio crystal attached modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.</t>
 		<t id="302">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The standard crystal attached modulates the beam of a laser weapon into the visible light spectrum.</t>
 		<t id="303">The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place.</t>
+		<!-- Stations -->
+		<t id="1101">Amarr Defence Platform</t>
+		<t id="1111">Amarr Trading Station</t>
+		<t id="1121">Amarr Equipment Dock</t>
+		<t id="1131">Amarr Shipyard</t>
+		<t id="1141">Amarr Wharf</t>
 	</page>
 </language>

@@ -1,24 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-<add sel="//stations">
-  <station id="shipyard_dam" group="shipyard_arg">
-    <category tags="shipyard" faction="[damarr]" />
-  </station>
-
-  <station id="wharf_dam" group="wharf_arg">
-    <category tags="wharf" faction="[damarr]" />
-  </station>
-
-  <station id="equipmentdock_dam" group="equipmentdock_arg">
-    <category tags="equipmentdock" faction="[damarr]" />
-  </station>
-
-  <station id="tradestation_dam" group="tradestation_arg">
-    <category tags="tradestation" faction="[damarr]" />
-  </station>
-
-  <station id="defence_dam" group="defence_arg">
-    <category tags="defence" faction="[damarr]" />
-  </station>
-</add>
+	<add sel="//stations">
+		<station id="shipyard_dam" group="shipyard_dam">
+			<category tags="shipyard" faction="[damarr]"/>
+		</station>
+		<station id="wharf_dam" group="wharf_dam">
+			<category tags="wharf" faction="[damarr]"/>
+		</station>
+		<station id="equipmentdock_dam" group="equipmentdock_dam">
+			<category tags="equipmentdock" faction="[damarr]"/>
+		</station>
+		<station id="tradestation_dam" group="tradestation_dam">
+			<category tags="tradestation" faction="[damarr]"/>
+		</station>
+		<station id="defence_dam" group="defence_dam">
+			<category tags="defence" faction="[damarr]"/>
+		</station>
+	</add>
 </diff>

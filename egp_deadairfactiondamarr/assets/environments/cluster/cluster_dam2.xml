@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <components>
 	<component name="Cluster_DAM2" class="celestialbody">
-		<source geometry="assets\environments\cluster\Cluster_39_data"/>
+		<source geometry="extensions\egp_deadairfactiondamarr\assets\environments\cluster\cluster_dam2_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="255" g="255" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1.35">
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="0.75">
 						<lightanimations/>
 						<offset>
 							<position x="3.44987E+07" y="8.266394E+07" z="-2.72867E+08"/>
 						</offset>
 					</omni>
-					<ambient name="XU Ambient001" r="27" g="31" b="34" range="1E+11" intensity="1">
+					<ambient name="XU Ambient001" r="65" g="74" b="76" range="1E+11" intensity="0.3">
 						<lightanimations/>
 						<offset>
 							<position x="5.922367E+07" y="0" z="7.721783E+07"/>
@@ -27,49 +27,26 @@
 			<connection name="space" tags="celestialbody">
 				<offset/>
 			</connection>
-			<connection name="Connection001" tags="part  ">
-				<offset/>
+			<connection name="Connection01" tags="part">
 				<parts>
-					<part name="part_c03_bg">
+					<part name="eveskybox">
+						<size>
+							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
+							<center x="512" y="-480" z="0" />
+						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+									<material id="1" ref="amarrsky.bhizheba" />
 								</materials>
 							</lod>
 						</lods>
-						<size>
-							<max x="4.52497E+08" y="4.525E+08" z="4.52497E+08"/>
-							<center x="0" y="0" z="0"/>
-						</size>
 					</part>
 				</parts>
-			</connection>
-			<connection name="Connection004" tags="part  ">
 				<offset>
-					<position x="1.226121E+07" y="0" z="8100438"/>
-					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<quaternion qx="0.707" qy="0" qz="0" qw="0.707"/>
 				</offset>
-				<parts>
-					<part name="Background">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.backgroundstars"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="4.255449E+08" y="4.25545E+08" z="4.25545E+08"/>
-							<center x="76.17188" y="31.25" z="-0.9765625"/>
-						</size>
-						<pivot>
-							<offset>
-								<position x="0" y="-50000" z="0"/>
-							</offset>
-						</pivot>
-					</part>
-				</parts>
 			</connection>
 			<connection name="Connection005" tags="part  ">
 				<offset>
@@ -87,26 +64,6 @@
 						<size>
 							<max x="4.190706E+08" y="3.616261E+08" z="4.29686E+08"/>
 							<center x="0.9765625" y="9.765625" z="-1.953125"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
-			<connection name="Connection006" tags="part  ">
-				<offset>
-					<position x="-1.168802E+07" y="1.581795E+07" z="1906498"/>
-				</offset>
-				<parts>
-					<part name="nebula001">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.staratlas_additive"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="3.778657E+08" y="1.925482E+08" z="3.917571E+08"/>
-							<center x="-23.4375" y="14.64844" z="1.831055"/>
 						</size>
 					</part>
 				</parts>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<diff>
+<add sel="//materiallibrary">
+  <collection name="amarrsky">
+	<material name="hedion" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\hedion" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="bhizheba" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\bhizheba" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="irnal" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\irnal" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="amarr" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\amarr" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="ashab" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\ashab" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="sarumprime" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\sarumprime" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="chaven" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\chaven" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="misaba" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondamarr\assets\environments\cluster\evesky\misaba" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+  </collection>
+</add>
+</diff>
