@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Damarr_Gate_Research" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<conditions>
+				<event_universe_generated/>
+			</conditions>
+			<actions>
+				<set_value name="$ResearchPrereq" exact="ware.research_teleportation.research.unlocked or ware.research_teleportation_range_01.research.unlocked or ware.research_teleportation_range_02.research.unlocked or ware.research_teleportation_range_03.research.unlocked"/>
+				<set_value name="$RelationPrereq" exact="faction.player.relationto.{faction.damarr} ge 0.1"/>
+				<!-- DAM3 to C413 -->
+				<find_sector name="$DAM3" macro="macro.Cluster_DAM3_Sector001_macro" required="true"/>
+				<find_zone name="$DAM3Zone" space="$DAM3" macro="macro.ZoneDAM1_Cluster_DAM3_Sector001_macro" required="true"/>
+				<find_gate name="$DAM3Gate" space="$DAM3Zone" active="false" required="true"/>
+				<!-- C413 -->
+				<find_sector name="$C413" macro="macro.Cluster_413_Sector001_macro" required="true"/>
+				<!-- C413 to C417 -->
+				<find_zone name="$C413ZoneDAM1" space="$C413" macro="macro.ZoneDAM1_Cluster_413_Sector001_macro" required="true"/>
+				<find_gate name="$C413GateC417" space="$C413ZoneDAM1" active="false" required="true"/>
+				<!-- C413 to DAM3 -->
+				<find_zone name="$C413ZoneDAM4" space="$C413" macro="macro.ZoneDAM4_Cluster_413_Sector001_macro" required="true"/>
+				<find_gate name="$C413GateDAM3" space="$C413ZoneDAM4" active="false" required="true"/>
+				<!-- C417 to C413 -->
+				<find_sector name="$C417" macro="macro.Cluster_417_Sector001_macro" required="true"/>
+				<find_zone name="$C417Zone" space="$C417" macro="macro.ZoneDAM3_Cluster_417_Sector001_macro" required="true"/>
+				<find_gate name="$C417Gate" space="$C417Zone" active="false" required="true"/>
+				<!-- DAM7 to DAL7 -->
+				<find_sector name="$DAM7" macro="macro.Cluster_DAM7_Sector001_macro" required="true"/>
+				<find_zone name="$DAM7Zone" space="$DAM7" macro="macro.ZoneDAM4_Cluster_DAM7_Sector001_macro" required="true"/>
+				<find_gate name="$DAM7Gate" space="$DAM7Zone" active="false" required="true"/>
+				<!-- DAL7 to DAM7 -->
+				<find_sector name="$DAL7" macro="macro.Cluster_DAL7_Sector001_macro" required="true"/>
+				<find_zone name="$DAL7Zone" space="$DAL7" macro="macro.ZoneDAL2_Cluster_DAL7_Sector001_macro" required="true"/>
+				<find_gate name="$DAL7Gate" space="$DAL7Zone" active="false" required="true"/>
+				<!-- DEBUG -->
+				<debug_text text="'MOD: DeadAirFactionDamarr -- DAM3? %1 DAM3Gate? %2 / Zone %3 -- C413GateDAM3? %4 / Zone %5'.[$DAM3?,@$DAM3Gate.macro,@$DAM3Gate.zone.macro,@$C413GateDAM3.macro,@$C413GateDAM3.zone.macro]" context="false" filter="scripts"/>
+				<debug_text text="'MOD: DeadAirFactionDamarr -- C413? %1 C413GateC417? %2 / Zone %3 -- C417Gate %4 / Zone %5'.[$C413?,@$C413GateC417.macro,@$C413GateC417.zone.macro,@$C417Gate.macro,@$C417Gate.zone.macro]" context="false" filter="scripts"/>
+				<debug_text text="'MOD: DeadAirFactionDamarr -- DAM7? %1 DAM7Gate? %2 / Zone %3 -- DAL7Gate %4 / Zone %5'.[$DAM7?,@$DAM7Gate.macro,@$DAM7Gate.zone.macro,@$DAL7Gate.macro,@$DAL7Gate.zone.macro]" context="false" filter="scripts"/>
+			</actions>
+			<cues>
+				<cue name="ResearchCompleted" instantiate="true">
+					<conditions>
+						<event_player_production_finished research="true"/>
+					</conditions>
+					<actions>
+						<do_if value="[ware.research_teleportation,ware.research_teleportation_range_01,ware.research_teleportation_range_02,ware.research_teleportation_range_03].indexof.{event.param2}">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="ReputationGained" instantiate="true">
+					<conditions>
+						<event_player_relation_changed faction="faction.damarr"/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq and faction.player.relationto.{faction.damarr} ge 0.1">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="InitialCheck">
+					<actions>
+						<do_if value="$ResearchPrereq">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<cancel_cue cue="ResearchCompleted"/>
+						</do_if>
+						<do_if value="$RelationPrereq">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<cancel_cue cue="ReputationGained"/>
+						</do_if>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="PeriodicCheck" instantiate="true">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<cancel_cue cue="ResearchCompleted"/>
+						</do_if>
+						<do_if value="$RelationPrereq">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<cancel_cue cue="ReputationGained"/>
+						</do_if>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<signal_cue cue="Add_Research"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="Add_Research">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<add_encyclopedia_entry type="researchables" item="'damarr_gate_activation'"/>
+							<create_cue_actor name="$BosoTaDA" cue="namespace" macro="character_boron_hq_mentor_macro">
+								<page exact="4816301"/>
+								<owner exact="faction.civilian"/>
+							</create_cue_actor>
+							<speak actor="$BosoTaDA" priority="80" line="9000" comment="I have important news! It looks like the Amarr are trying to active a gate. I have added new research."/>
+						</do_if>
+						<do_else>
+							<reset_cue cue="this"/>
+						</do_else>
+					</actions>
+					<cues>
+						<cue name="FinishedSpeaking">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9000"/>
+							</conditions>
+							<actions>
+								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+				<cue name="GateResearchCompleted" instantiate="true">
+					<conditions>
+						<event_player_production_finished research="true"/>
+					</conditions>
+					<actions>
+						<do_if value="ware.damarr_gate_activation == event.param2">
+							<set_object_active object="$DAM3Gate" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionDamarr -- Activated DAM3Gate -- DAM3Gate.isactive == %1 -- C413GateDAM3.isactive == %2'.[$DAM3Gate.isactive,$C413GateDAM3.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $DAM3Gate.isactive">
+								<set_object_active object="$C413GateDAM3" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionDamarr -- DAM3Gate Activation Failed, trying C413GateDAM3 -- DAM3Gate.isactive == %1 -- C413GateDAM3.isactive == %2'.[$DAM3Gate.isactive,$C413GateDAM3.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<set_object_active object="$C413GateC417" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionDamarr -- Activated C413GateC417 -- C413GateC417.isactive == %1 -- C417Gate.isactive == %2'.[$C413GateC417.isactive,$C417Gate.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $C413GateC417.isactive">
+								<set_object_active object="$C417Gate" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionDamarr -- C413GateC417 Activation Failed, trying C417Gate -- C413GateC417.isactive == %1 -- C417Gate.isactive == %2'.[$C413GateC417.isactive,$C417Gate.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<set_object_active object="$DAM7Gate" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionDamarr -- Activated DAM7Gate -- DAM7Gate.isactive == %1 -- DAL7.isactive == %2'.[$DAM7Gate.isactive,$DAL7Gate.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $DAM7Gate.isactive">
+								<set_object_active object="$DAL7Gate" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionDamarr -- DAM7Gate Activation Failed, trying DAL7Gate -- DAM7Gate.isactive == %1 -- DAL7.isactive == %2'.[$DAM7Gate.isactive,$DAL7Gate.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<create_cue_actor name="$BosoTaDA" cue="namespace" macro="character_boron_hq_mentor_macro">
+								<page exact="4816301"/>
+								<owner exact="faction.civilian"/>
+							</create_cue_actor>
+							<speak actor="$BosoTaDA" priority="80" line="9003" comment="Incredible! The gates are coming online. I wonder if we can work with other factions to activate more."/>
+						</do_if>
+					</actions>
+					<cues>
+						<cue name="FinishedSpeakingFinal">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9003"/>
+							</conditions>
+							<actions>
+								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
+							</actions>
+						</cue>
+						<cue name="CleanUpAndCheck">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9003"/>
+							</conditions>
+							<delay exact="15s"/>
+							<actions>
+								
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+				<!--<cue name="Debug">
+					<conditions>
+						<event_long_range_scan_sent object="player.entity"/>
+					</conditions>
+					<actions>
+						<set_value name="$ResearchPrereq" exact="true"/>
+						<set_value name="$RelationPrereq" exact="true"/>
+						<signal_cue cue="Add_Research"/>
+					</actions>
+				</cue>-->
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

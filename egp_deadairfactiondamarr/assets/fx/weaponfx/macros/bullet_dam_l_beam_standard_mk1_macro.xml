@@ -3,7 +3,7 @@
 	<macro name="bullet_dam_l_beam_standard_mk1_macro" class="bullet">
 		<component ref="bullet_dam_l_beam_standard_mk1"/>
 		<properties>
-			<bullet speed="2.997925e+08" lifetime="1.1" range="20000" amount="1" barrelamount="2" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
+			<bullet speed="2.997925e+08" lifetime="1.1" range="20000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
 			<damagecurves>
 				<distance>
 					<point position="0" value="0.1"/>

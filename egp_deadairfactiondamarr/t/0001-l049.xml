@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <language id="49">
-	<page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+	<page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
 		<!-- 3323247 == deadair -->
 		<!--48163x69 == 3323247 since there is a character limit -->
 		<!--48163##-->
@@ -80,5 +80,10 @@
 		<t id="1121">Amarr Equipment Dock</t>
 		<t id="1131">Amarr Shipyard</t>
 		<t id="1141">Amarr Wharf</t>
+		<!-- BosoTaDA -->
+		<t id="9000">I have important news! It looks like the Amarr are trying to activate a gate. I have added new research.</t>
+		<t id="9001">Amarr Gate Activation</t>
+		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
+		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
 	</page>
 </language>

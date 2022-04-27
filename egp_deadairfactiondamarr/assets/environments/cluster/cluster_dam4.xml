@@ -32,8 +32,8 @@
 				<parts>
 					<part name="eveskybox">
 						<size>
-							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
-							<center x="512" y="-480" z="0" />
+							<max x="3.46503e+010" y="3.46503e+010" z="3.49662e+010" />
+							<center x="0" y="0" z="0" />
 						</size>
 						<lods>
 							<lod index="0">
