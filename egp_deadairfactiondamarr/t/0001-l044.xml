@@ -47,6 +47,8 @@
 		<t id="140">xxx</t>
 		<t id="141">xxx</t>
 		<t id="142">xxx</t>
+		<t id="197">Misaba Prime</t>
+		<t id="198">Amarr Prime</t>
 		<t id="199">Amarr</t>
 		<!-- Equipment -->
 		<t id="200">{4816301,102}(AMR) {20111,5031}(L) Multifrequency Mega Beam Laser</t>
@@ -85,5 +87,6 @@
 		<t id="9001">Amarr Gate Activation</t>
 		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
 		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
+		<t id="9004">I have important news! We can activate new gates into Amarr space. Let us show them the power of science! I have added new research.</t>
 	</page>
 </language>

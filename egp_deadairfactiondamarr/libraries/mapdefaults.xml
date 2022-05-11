@@ -1,132 +1,156 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-<!-- 
+	<!-- 
 CAPITAL: <area sunlight="1" economy="1" security="1" />
 ADVANCED: <area sunlight="1" economy="1.0" security="0.9" />
 INTERIOR: <area sunlight="1" economy="1.0" security="0.8" />
 BORDER: <area sunlight="1" economy="1.0" security="0.9" />
 NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 -->
-  <add sel="/defaults">
-    <dataset macro="Cluster_DAM1_macro">
-      <properties>
-        <identification name="{4816301,120}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM1_Sector001_macro">
-      <properties>
-        <identification name="{4816301,120}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM2_macro">
-      <properties>
-        <identification name="{4816301,121}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="0.8" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM2_Sector001_macro">
-      <properties>
-        <identification name="{4816301,121}" description="{20006,102}"/>
-        <area sunlight="0.8" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM3_macro">
-      <properties>
-        <identification name="{4816301,122}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.3" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM3_Sector001_macro">
-      <properties>
-        <identification name="{4816301,122}" description="{20006,102}"/>
-        <area sunlight="1.3" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM4_macro">
-      <properties>
-        <identification name="{4816301,123}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1" economy="1" security="1"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM4_Sector001_macro">
-      <properties>
-        <identification name="{4816301,123}" description="{20006,102}"/>
-        <area sunlight="1" economy="1" security="1"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM5_macro">
-      <properties>
-        <identification name="{4816301,124}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM5_Sector001_macro">
-      <properties>
-        <identification name="{4816301,124}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM6_macro">
-      <properties>
-        <identification name="{4816301,125}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.1" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM6_Sector001_macro">
-      <properties>
-        <identification name="{4816301,125}" description="{20006,102}"/>
-        <area sunlight="1.1" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM7_macro">
-      <properties>
-        <identification name="{4816301,126}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.2" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DAM7_Sector001_macro">
-      <properties>
-        <identification name="{4816301,126}" description="{20006,102}"/>
-        <area sunlight="1.2" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM8_macro">
-      <properties>
-        <identification name="{4816301,130}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="0.25" security="0.25" factionlogic="false"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DAM8_Sector001_macro">
-      <properties>
-        <identification name="{4816301,130}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="0.25" security="0.25" />
-      </properties>
-    </dataset>
-  </add>
+	<add sel="/defaults">
+		<dataset macro="Cluster_DAM1_macro">
+			<properties>
+				<identification name="{4816301,120}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM1_Sector001_macro">
+			<properties>
+				<identification name="{4816301,120}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM2_macro">
+			<properties>
+				<identification name="{4816301,121}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="0.8" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM2_Sector001_macro">
+			<properties>
+				<identification name="{4816301,121}" description="{20006,102}"/>
+				<area sunlight="0.8" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM3_macro">
+			<properties>
+				<identification name="{4816301,122}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.3" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM3_Sector001_macro">
+			<properties>
+				<identification name="{4816301,122}" description="{20006,102}"/>
+				<area sunlight="1.3" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM4_macro">
+			<properties>
+				<identification name="{4816301,123}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1" economy="1" security="1"/>
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13021}(Yellow Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{4816301,198}(Amarr Prime)" geology="{1042,14101}(Earth Analog)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="5228100000" settlements="{1042,16041}(Multiple Cities)" part="planet001"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM4_Sector001_macro">
+			<properties>
+				<identification name="{4816301,123}" description="{20006,102}"/>
+				<area sunlight="1" economy="1" security="1"/>
+				<worlds>
+					<world part="planet001"/>
+				</worlds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM5_macro">
+			<properties>
+				<identification name="{4816301,124}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM5_Sector001_macro">
+			<properties>
+				<identification name="{4816301,124}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM6_macro">
+			<properties>
+				<identification name="{4816301,125}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.1" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM6_Sector001_macro">
+			<properties>
+				<identification name="{4816301,125}" description="{20006,102}"/>
+				<area sunlight="1.1" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM7_macro">
+			<properties>
+				<identification name="{4816301,126}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.2" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM7_Sector001_macro">
+			<properties>
+				<identification name="{4816301,126}" description="{20006,102}"/>
+				<area sunlight="1.2" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM8_macro">
+			<properties>
+				<identification name="{4816301,130}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="0.25" security="0.25" factionlogic="false"/>
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13051}(Blue Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{4816301,197}(Misaba Prime)" class="{1042,14101}(Earth Analog)" geology="{1042,15011}(Tundra)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="7160250000" settlements="{1042,16041}(Multiple Cities)" part="planet001c"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DAM8_Sector001_macro">
+			<properties>
+				<identification name="{4816301,130}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="0.25" security="0.25"/>
+				<worlds>
+					<world part="planet001c"/>
+				</worlds>
+			</properties>
+		</dataset>
+	</add>
 </diff>

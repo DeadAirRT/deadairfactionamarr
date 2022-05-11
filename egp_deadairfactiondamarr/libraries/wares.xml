@@ -521,7 +521,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
-					<ware ware="turretcomponents" amount="313"/>
+					<ware ware="turretcomponents" amount="235"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_multifrequency_mk1_macro" amount="1"/>
@@ -535,7 +535,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
-					<ware ware="turretcomponents" amount="275"/>
+					<ware ware="turretcomponents" amount="207"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_radio_mk1_macro" amount="1"/>
@@ -549,7 +549,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
-					<ware ware="turretcomponents" amount="250"/>
+					<ware ware="turretcomponents" amount="188"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_standard_mk1_macro" amount="1"/>
@@ -561,9 +561,9 @@
 			<price min="100000" average="106250" max="112500"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="36"/>
-					<ware ware="energycells" amount="300"/>
-					<ware ware="turretcomponents" amount="94"/>
+					<ware ware="advancedelectronics" amount="18"/>
+					<ware ware="energycells" amount="150"/>
+					<ware ware="turretcomponents" amount="35"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_multifrequency_mk1_macro" amount="1"/>
@@ -575,9 +575,9 @@
 			<price min="100000" average="106250" max="112500"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="36"/>
-					<ware ware="energycells" amount="300"/>
-					<ware ware="turretcomponents" amount="94"/>
+					<ware ware="advancedelectronics" amount="18"/>
+					<ware ware="energycells" amount="150"/>
+					<ware ware="turretcomponents" amount="35"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_multifrequency_mk1_macro" amount="1"/>
@@ -589,9 +589,9 @@
 			<price min="88000" average="93500" max="99000"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="32"/>
-					<ware ware="energycells" amount="264"/>
-					<ware ware="turretcomponents" amount="83"/>
+					<ware ware="advancedelectronics" amount="15"/>
+					<ware ware="energycells" amount="132"/>
+					<ware ware="turretcomponents" amount="31"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_radio_mk1_macro" amount="1"/>
@@ -603,9 +603,9 @@
 			<price min="88000" average="93500" max="99000"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="32"/>
-					<ware ware="energycells" amount="264"/>
-					<ware ware="turretcomponents" amount="83"/>
+					<ware ware="advancedelectronics" amount="15"/>
+					<ware ware="energycells" amount="132"/>
+					<ware ware="turretcomponents" amount="31"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_radio_mk1_macro" amount="1"/>
@@ -617,9 +617,9 @@
 			<price min="80000" average="85000" max="90000"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="29"/>
-					<ware ware="energycells" amount="240"/>
-					<ware ware="turretcomponents" amount="75"/>
+					<ware ware="advancedelectronics" amount="14"/>
+					<ware ware="energycells" amount="120"/>
+					<ware ware="turretcomponents" amount="28"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_standard_mk1_macro" amount="1"/>
@@ -631,9 +631,9 @@
 			<price min="80000" average="85000" max="90000"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="29"/>
-					<ware ware="energycells" amount="240"/>
-					<ware ware="turretcomponents" amount="75"/>
+					<ware ware="advancedelectronics" amount="14"/>
+					<ware ware="energycells" amount="120"/>
+					<ware ware="turretcomponents" amount="28"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_standard_mk1_macro" amount="1"/>
@@ -647,7 +647,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
-					<ware ware="turretcomponents" amount="313"/>
+					<ware ware="turretcomponents" amount="235"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_multifrequency_macro" amount="1"/>
@@ -661,7 +661,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
-					<ware ware="turretcomponents" amount="275"/>
+					<ware ware="turretcomponents" amount="207"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_radio_macro" amount="1"/>
@@ -675,7 +675,7 @@
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
-					<ware ware="turretcomponents" amount="250"/>
+					<ware ware="turretcomponents" amount="188"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_standard_macro" amount="1"/>
@@ -701,9 +701,9 @@
 			<price min="1295886" average="1550985" max="1681082"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="156"/>
-					<ware ware="energycells" amount="625"/>
-					<ware ware="weaponcomponents" amount="469"/>
+					<ware ware="advancedelectronics" amount="149"/>
+					<ware ware="energycells" amount="1250"/>
+					<ware ware="weaponcomponents" amount="294"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_multifrequency_macro" amount="1"/>
@@ -715,9 +715,9 @@
 			<price min="1140380" average="1364867" max="1479353"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="138"/>
-					<ware ware="energycells" amount="550"/>
-					<ware ware="weaponcomponents" amount="413"/>
+					<ware ware="advancedelectronics" amount="131"/>
+					<ware ware="energycells" amount="1100"/>
+					<ware ware="weaponcomponents" amount="259"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_radio_macro" amount="1"/>
@@ -729,9 +729,9 @@
 			<price min="1036709" average="1240788" max="1344866"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="125"/>
-					<ware ware="energycells" amount="500"/>
-					<ware ware="weaponcomponents" amount="375"/>
+					<ware ware="advancedelectronics" amount="119"/>
+					<ware ware="energycells" amount="1000"/>
+					<ware ware="weaponcomponents" amount="235"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_standard_macro" amount="1"/>
@@ -757,9 +757,9 @@
 			<price min="121370" average="137920" max="154470"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="48"/>
-					<ware ware="energycells" amount="188"/>
-					<ware ware="weaponcomponents" amount="141"/>
+					<ware ware="advancedelectronics" amount="45"/>
+					<ware ware="energycells" amount="375"/>
+					<ware ware="weaponcomponents" amount="89"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_multifrequency_macro" amount="1"/>
@@ -771,9 +771,9 @@
 			<price min="106805" average="121370" max="135934"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="42"/>
-					<ware ware="energycells" amount="165"/>
-					<ware ware="weaponcomponents" amount="124"/>
+					<ware ware="advancedelectronics" amount="40"/>
+					<ware ware="energycells" amount="330"/>
+					<ware ware="weaponcomponents" amount="78"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_radio_macro" amount="1"/>
@@ -785,9 +785,9 @@
 			<price min="97095" average="110336" max="123576"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="38"/>
-					<ware ware="energycells" amount="150"/>
-					<ware ware="weaponcomponents" amount="113"/>
+					<ware ware="advancedelectronics" amount="36"/>
+					<ware ware="energycells" amount="300"/>
+					<ware ware="weaponcomponents" amount="71"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_standard_macro" amount="1"/>
@@ -800,8 +800,8 @@
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="14"/>
-					<ware ware="energycells" amount="56"/>
-					<ware ware="weaponcomponents" amount="43"/>
+					<ware ware="energycells" amount="113"/>
+					<ware ware="weaponcomponents" amount="26"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_multifrequency_macro" amount="1"/>
@@ -814,8 +814,8 @@
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="12"/>
-					<ware ware="energycells" amount="50"/>
-					<ware ware="weaponcomponents" amount="37"/>
+					<ware ware="energycells" amount="99"/>
+					<ware ware="weaponcomponents" amount="23"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_radio_macro" amount="1"/>
@@ -828,8 +828,8 @@
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="11"/>
-					<ware ware="energycells" amount="45"/>
-					<ware ware="weaponcomponents" amount="34"/>
+					<ware ware="energycells" amount="90"/>
+					<ware ware="weaponcomponents" amount="21"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_standard_macro" amount="1"/>
