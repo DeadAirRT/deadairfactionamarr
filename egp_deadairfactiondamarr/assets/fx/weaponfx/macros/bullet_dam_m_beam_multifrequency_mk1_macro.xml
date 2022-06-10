@@ -4,15 +4,6 @@
 		<component ref="bullet_dam_m_beam_multifrequency_mk1"/>
 		<properties>
 			<bullet speed="2.997925e+08" lifetime="1.5" range="6000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
-			<damagecurves>
-				<distance>
-					<point position="0" value="0.5"/>
-					<point position="0.25" value="0.5"/>
-					<point position="0.5" value="0.5"/>
-					<point position="0.75" value="1"/>
-					<point position="1" value="1"/>
-				</distance>
-			</damagecurves>
 			<reload time="2.5"/>
 			<damage value="1155.47" shield="557.81"/>
 			<effects>

@@ -3,11 +3,11 @@
   <macro name="turret_dam_l_beam_radio_mk1_macro" class="turret">
     <component ref="turret_arg_l_beam_01_mk1" />
     <properties>
-      <identification name="{4816301,202}" basename="{4816301,290}" shortname="{4816301,203}" description="{4816301,301}" />
+      <identification name="{4816301,202}" basename="{4816301,290}" shortname="{4816301,265}" description="{4816301,301}" />
       <bullet class="bullet_dam_l_beam_radio_mk1_macro" />
       <rotationspeed max="10" />
 	  <rotationacceleration max="20" />
-      <reload rate="0.5" time="1" />
+      <reload/>
       <hull max="23000" threshold="0.2" />
     </properties>
   </macro>

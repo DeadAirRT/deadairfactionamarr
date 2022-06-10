@@ -7,10 +7,9 @@
 			<heat value="150"/>
 			<damagecurves>
 				<distance>
-					<point position="0" value="0.5"/>
-					<point position="0.25" value="0.5"/>
-					<point position="0.5" value="0.75"/>
-					<point position="0.75" value="1"/>
+					<point position="0" value="0.75"/>
+					<point position="0.49" value="0.75"/>
+					<point position="0.5" value="1"/>
 					<point position="1" value="1"/>
 				</distance>
 			</damagecurves>

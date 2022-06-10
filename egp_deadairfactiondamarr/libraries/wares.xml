@@ -516,12 +516,12 @@
 	<!-- Weapons -->
 	<add sel="//wares">
 		<ware id="turret_dam_l_beam_multifrequency_mk1" name="{4816301,200}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1625000" average="1750000" max="1875000"/>
+			<price min="242416" average="506640" max="1039232"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
-					<ware ware="turretcomponents" amount="235"/>
+					<ware ware="turretcomponents" amount="118"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_multifrequency_mk1_macro" amount="1"/>
@@ -530,12 +530,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_beam_radio_mk1" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1430000" average="1540000" max="1650000"/>
+			<price min="213568" average="446007" max="914336"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
-					<ware ware="turretcomponents" amount="207"/>
+					<ware ware="turretcomponents" amount="103"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_radio_mk1_macro" amount="1"/>
@@ -544,12 +544,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_beam_standard_mk1" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1300000" average="1400000" max="1500000"/>
+			<price min="193504" average="404376" max="829408"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
-					<ware ware="turretcomponents" amount="188"/>
+					<ware ware="turretcomponents" amount="94"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_l_beam_standard_mk1_macro" amount="1"/>
@@ -558,12 +558,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_multifrequency_mk1" name="{4816301,206}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="100000" average="106250" max="112500"/>
+			<price min="36684" average="76698" max="157368"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="18"/>
 					<ware ware="energycells" amount="150"/>
-					<ware ware="turretcomponents" amount="35"/>
+					<ware ware="turretcomponents" amount="18"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_multifrequency_mk1_macro" amount="1"/>
@@ -572,12 +572,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_multifrequency_mk1" name="{4816301,206}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="100000" average="106250" max="112500"/>
+			<price min="36684" average="76698" max="157368"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="18"/>
 					<ware ware="energycells" amount="150"/>
-					<ware ware="turretcomponents" amount="35"/>
+					<ware ware="turretcomponents" amount="18"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_multifrequency_mk1_macro" amount="1"/>
@@ -586,12 +586,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_radio_mk1" name="{4816301,207}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="88000" average="93500" max="99000"/>
+			<price min="30696" average="64251" max="131952"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="15"/>
 					<ware ware="energycells" amount="132"/>
-					<ware ware="turretcomponents" amount="31"/>
+					<ware ware="turretcomponents" amount="15"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_radio_mk1_macro" amount="1"/>
@@ -600,12 +600,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_radio_mk1" name="{4816301,207}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="88000" average="93500" max="99000"/>
+			<price min="30696" average="64251" max="131952"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="15"/>
 					<ware ware="energycells" amount="132"/>
-					<ware ware="turretcomponents" amount="31"/>
+					<ware ware="turretcomponents" amount="15"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_radio_mk1_macro" amount="1"/>
@@ -614,12 +614,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_standard_mk1" name="{4816301,208}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="80000" average="85000" max="90000"/>
+			<price min="28592" average="59814" max="122784"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="14"/>
 					<ware ware="energycells" amount="120"/>
-					<ware ware="turretcomponents" amount="28"/>
+					<ware ware="turretcomponents" amount="14"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_01_standard_mk1_macro" amount="1"/>
@@ -628,12 +628,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_standard_mk1" name="{4816301,208}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="80000" average="85000" max="90000"/>
+			<price min="28592" average="59814" max="122784"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="14"/>
 					<ware ware="energycells" amount="120"/>
-					<ware ware="turretcomponents" amount="28"/>
+					<ware ware="turretcomponents" amount="14"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_m_beam_02_standard_mk1_macro" amount="1"/>
@@ -642,12 +642,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_multifrequency" name="{4816301,200}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1625000" average="1750000" max="1875000"/>
+			<price min="242416" average="506640" max="1039232"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
-					<ware ware="turretcomponents" amount="235"/>
+					<ware ware="turretcomponents" amount="118"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_multifrequency_macro" amount="1"/>
@@ -656,12 +656,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_radio" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1430000" average="1540000" max="1650000"/>
+			<price min="213568" average="446007" max="914336"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
-					<ware ware="turretcomponents" amount="207"/>
+					<ware ware="turretcomponents" amount="103"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_radio_macro" amount="1"/>
@@ -670,12 +670,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_standard" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="1300000" average="1400000" max="1500000"/>
+			<price min="193504" average="404376" max="829408"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
-					<ware ware="turretcomponents" amount="188"/>
+					<ware ware="turretcomponents" amount="94"/>
 				</primary>
 			</production>
 			<component ref="turret_dam_t3bc_beam_standard_macro" amount="1"/>
@@ -698,12 +698,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_l_multifrequency" name="{4816301,209}" description="{4816301,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="1295886" average="1550985" max="1681082"/>
+			<price min="303556" average="634470" max="1301512"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="149"/>
 					<ware ware="energycells" amount="1250"/>
-					<ware ware="weaponcomponents" amount="294"/>
+					<ware ware="weaponcomponents" amount="148"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_multifrequency_macro" amount="1"/>
@@ -712,12 +712,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_l_radio" name="{4816301,210}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="1140380" average="1364867" max="1479353"/>
+			<price min="266872" average="557772" max="1144144"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="131"/>
 					<ware ware="energycells" amount="1100"/>
-					<ware ware="weaponcomponents" amount="259"/>
+					<ware ware="weaponcomponents" amount="130"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_radio_macro" amount="1"/>
@@ -726,12 +726,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_l_standard" name="{4816301,211}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="1036709" average="1240788" max="1344866"/>
+			<price min="242416" average="506640" max="1039232"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
-					<ware ware="weaponcomponents" amount="235"/>
+					<ware ware="weaponcomponents" amount="118"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_l_standard_macro" amount="1"/>
@@ -754,12 +754,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_m_multifrequency" name="{4816301,206}" description="{4816301,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="121370" average="137920" max="154470"/>
+			<price min="91454" average="190926" max="391308"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="45"/>
 					<ware ware="energycells" amount="375"/>
-					<ware ware="weaponcomponents" amount="89"/>
+					<ware ware="weaponcomponents" amount="44"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_multifrequency_macro" amount="1"/>
@@ -768,12 +768,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_m_radio" name="{4816301,207}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="106805" average="121370" max="135934"/>
+			<price min="81204" average="169461" max="347208"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="40"/>
 					<ware ware="energycells" amount="330"/>
-					<ware ware="weaponcomponents" amount="78"/>
+					<ware ware="weaponcomponents" amount="39"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_radio_macro" amount="1"/>
@@ -782,12 +782,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_m_standard" name="{4816301,208}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="97095" average="110336" max="123576"/>
+			<price min="73112" average="152577" max="312624"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="36"/>
 					<ware ware="energycells" amount="300"/>
-					<ware ware="weaponcomponents" amount="71"/>
+					<ware ware="weaponcomponents" amount="35"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_m_beam_standard_macro" amount="1"/>
@@ -796,12 +796,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_multifrequency" name="{4816301,213}" description="{4816301,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="60818" average="69112" max="77405"/>
+			<price min="28466" average="59478" max="121972"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="14"/>
 					<ware ware="energycells" amount="113"/>
-					<ware ware="weaponcomponents" amount="26"/>
+					<ware ware="weaponcomponents" amount="14"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_multifrequency_macro" amount="1"/>
@@ -810,12 +810,12 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_radio" name="{4816301,214}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="53520" average="60819" max="68116"/>
+			<price min="24438" average="51084" max="104796"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="12"/>
 					<ware ware="energycells" amount="99"/>
-					<ware ware="weaponcomponents" amount="23"/>
+					<ware ware="weaponcomponents" amount="12"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_radio_macro" amount="1"/>
@@ -824,16 +824,184 @@
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_standard" name="{4816301,215}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="48655" average="55290" max="61924"/>
+			<price min="22388" average="46791" max="95976"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="11"/>
 					<ware ware="energycells" amount="90"/>
-					<ware ware="weaponcomponents" amount="21"/>
+					<ware ware="weaponcomponents" amount="11"/>
 				</primary>
 			</production>
 			<component ref="weapon_dam_s_beam_standard_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_l_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="242416" average="506640" max="1039232"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="119"/>
+					<ware ware="energycells" amount="1000"/>
+					<ware ware="turretcomponents" amount="118"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_l_pulse_multifrequency_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_l_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="213568" average="446007" max="914336"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="105"/>
+					<ware ware="energycells" amount="880"/>
+					<ware ware="turretcomponents" amount="103"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_l_pulse_radio_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_l_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="193504" average="404376" max="829408"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="95"/>
+					<ware ware="energycells" amount="800"/>
+					<ware ware="turretcomponents" amount="94"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_l_pulse_standard_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_multifrequency_01" name="{4816301,219}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="36684" average="76698" max="157368"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="18"/>
+					<ware ware="energycells" amount="150"/>
+					<ware ware="turretcomponents" amount="18"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_multifrequency_01_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_multifrequency_02" name="{4816301,219}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="36684" average="76698" max="157368"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="18"/>
+					<ware ware="energycells" amount="150"/>
+					<ware ware="turretcomponents" amount="18"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_multifrequency_02_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_radio_01" name="{4816301,220}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="30696" average="64251" max="131952"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="15"/>
+					<ware ware="energycells" amount="132"/>
+					<ware ware="turretcomponents" amount="15"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_radio_01_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_radio_02" name="{4816301,220}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="30696" average="64251" max="131952"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="15"/>
+					<ware ware="energycells" amount="132"/>
+					<ware ware="turretcomponents" amount="15"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_radio_02_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_standard_01" name="{4816301,221}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="28592" average="59814" max="122784"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="14"/>
+					<ware ware="energycells" amount="120"/>
+					<ware ware="turretcomponents" amount="14"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_standard_01_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_m_pulse_standard_02" name="{4816301,221}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="28592" average="59814" max="122784"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="14"/>
+					<ware ware="energycells" amount="120"/>
+					<ware ware="turretcomponents" amount="14"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_m_pulse_standard_02_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_t3bc_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="242416" average="506640" max="1039232"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="119"/>
+					<ware ware="energycells" amount="1000"/>
+					<ware ware="turretcomponents" amount="118"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_t3bc_pulse_multifrequency_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_t3bc_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="213568" average="446007" max="914336"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="105"/>
+					<ware ware="energycells" amount="880"/>
+					<ware ware="turretcomponents" amount="103"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_t3bc_pulse_radio_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="turret_dam_t3bc_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="193504" average="404376" max="829408"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="95"/>
+					<ware ware="energycells" amount="800"/>
+					<ware ware="turretcomponents" amount="94"/>
+				</primary>
+			</production>
+			<component ref="turret_dam_t3bc_pulse_standard_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
 			<use threshold="0"/>
 			<owner faction="damarr"/>
 		</ware>

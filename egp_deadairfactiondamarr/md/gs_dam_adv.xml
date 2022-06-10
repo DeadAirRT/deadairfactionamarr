@@ -38,7 +38,7 @@
 			<find_sector name="$AllSectors" space="player.galaxy" multiple="true" />
 			<do_for_each name="$Sector" in="$AllSectors">
 				<append_to_list name="$InitialMap" exact="$Sector.macro"/>
-				<do_if value="[faction.damarr,faction.daldari].indexof.{$Sector.owner}">
+				<do_if value="[faction.damarr,faction.daldari,faction.paranid].indexof.{$Sector.owner}">
 					<get_safe_pos result="$Position" sector="$Sector" radius="25km" value="position.[1, 1, 1]" allowyaxis="false" />
 					<create_object macro="macro.eq_arg_satellite_02_macro" owner="faction.player" sector="$Sector">
 						<safepos position="$Position"/>

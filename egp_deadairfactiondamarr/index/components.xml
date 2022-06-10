@@ -23,11 +23,15 @@
 	<entry name="weapon_dam_xl" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\capital\weapon_dam_xl" />
 	<entry name="weapon_dam_m_beam" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\weapon_dam_m_beam" />
 	<entry name="weapon_dam_s_beam" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\weapon_dam_s_beam" />
+	<entry name="turret_dam_l_pulse" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_l_pulse" />
+	<entry name="turret_dam_m_pulse_01" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_m_pulse_01" />
+	<entry name="turret_dam_m_pulse_02" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_m_pulse_02" />
 	<!-- T3BC -->
 	<entry name="turret_dam_t3bc_beam_multifrequency" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_multifrequency" />
 	<entry name="turret_dam_t3bc_beam_radio" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_radio" />
 	<entry name="turret_dam_t3bc_beam_standard" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_standard" />
 	<entry name="engine_dam_t3bc" value="extensions\egp_deadairfactiondamarr\assets\props\engines\engine_dam_t3bc" />
+	<entry name="turret_dam_t3bc_pulse" value="extensions\egp_deadairfactiondamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_pulse" />
 	<!-- Bullets -->
 	<entry name="bullet_dam_l_beam_multifrequency_mk1" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_l_beam_multifrequency_mk1" />
 	<entry name="bullet_dam_l_beam_radio_mk1" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_l_beam_radio_mk1" />
@@ -38,5 +42,7 @@
 	<entry name="bullet_dam_s_beam_multifrequency_mk1" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_s_beam_multifrequency_mk1" />
 	<entry name="bullet_dam_s_beam_radio_mk1" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_s_beam_radio_mk1" />
 	<entry name="bullet_dam_s_beam_standard_mk1" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_s_beam_standard_mk1" />
+	<entry name="bullet_dam_l_pulse" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_l_pulse" />
+	<entry name="bullet_dam_m_pulse" value="extensions\egp_deadairfactiondamarr\assets\fx\weaponfx\bullet_dam_m_pulse" />
 </add>
 </diff>
