@@ -454,16 +454,7 @@
 	<add sel="/wares/ware[@id='ship_arg_xs_police_01_a']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='turret_arg_l_guided_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
 	<add sel="/wares/ware[@id='turret_arg_l_mining_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='turret_arg_m_guided_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='turret_arg_m_guided_02_mk1']">
 		<owner faction="damarr"/>
 	</add>
 	<add sel="/wares/ware[@id='turret_arg_m_mining_01_mk1']">
@@ -472,22 +463,10 @@
 	<add sel="/wares/ware[@id='turret_arg_m_mining_02_mk1']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='weapon_gen_m_guided_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='weapon_gen_m_guided_01_mk2']">
-		<owner faction="damarr"/>
-	</add>
 	<add sel="/wares/ware[@id='weapon_gen_m_mining_01_mk1']">
 		<owner faction="damarr"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_gen_m_mining_01_mk2']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='weapon_gen_s_guided_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='weapon_gen_s_guided_01_mk2']">
 		<owner faction="damarr"/>
 	</add>
 	<add sel="/wares/ware[@id='weapon_gen_s_mining_01_mk1']">

@@ -158,7 +158,7 @@
 		<module id="prod_dam_turretcomponents" group="prod_gen_turretcomponents">
 			<category ware="turretcomponents" tags="[production, module]" faction="[damarr]"/>
 			<compatibilities>
-				<limits production="10"/>
+				<limits production="14"/>
 				<production ware="turretcomponents" chance="100"/>
 			</compatibilities>
 		</module>
