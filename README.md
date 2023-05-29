@@ -3,8 +3,7 @@
 ## Adds a new faction - Amarr Empire
 - Uses Argon ships with a focus on laser weapons.
 - Has a complete economy and logic.
-- At war with Ministry, Teladi, Holy Order, Gallente, and Minmatar.
-- Allied with Paranid, Zyarth, and Caldari.
+- At war with Gallente and Minmatar.
 
 ## Adds 8 Clusters
 - 7 Clusters owned by Amarr Empire with a connection to Paranid and Teladi.
