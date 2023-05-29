@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE icons SYSTEM "icons.dtd" >
+<icons>
+	<icon name="faction_damarr" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\factions\faction_damarr.tga" height="256" width="256"/>
+	<icon name="upgrade_*" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
+	<icon name="ship_dam_*" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_abaddon_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_armageddon_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_harbinger_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_legion_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_omen_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_oracle_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_l_providence_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_xl_archon_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+	<icon name="upgrade_ishield_dam_xl_avatar_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
+</icons>

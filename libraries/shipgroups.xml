@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//groups">
+		<group name="dam_builder_xl">
+			<select macro="ship_arg_xl_builder_01_a_macro" weight="100"/>
+			<select macro="ship_arg_xl_builder_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_resupplier_xl">
+			<select macro="ship_arg_xl_resupplier_01_a_macro" weight="100"/>
+			<select macro="ship_arg_xl_resupplier_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_trader_container_l">
+			<select macro="ship_dam_l_providence_macro" weight="100"/>
+		</group>
+		<group name="dam_trader_container_m">
+			<select macro="ship_arg_m_trans_container_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_trans_container_01_b_macro" weight="100"/>
+			<select macro="ship_arg_m_trans_container_02_a_macro" weight="100"/>
+			<select macro="ship_arg_m_trans_container_02_b_macro" weight="100"/>
+		</group>
+		<group name="dam_trader_container_s">
+			<select macro="ship_arg_s_trans_container_01_a_macro" weight="100"/>
+			<select macro="ship_arg_s_trans_container_01_b_macro" weight="100"/>
+			<select macro="ship_arg_s_trans_container_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_trans_container_02_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_solid_l">
+			<select macro="ship_arg_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_l_miner_solid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_liquid_l">
+			<select macro="ship_arg_l_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_l_miner_liquid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_solid_m">
+			<select macro="ship_arg_m_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_solid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_liquid_m">
+			<select macro="ship_arg_m_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_liquid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_solid_s">
+			<select macro="ship_arg_s_miner_solid_01_a_macro"/>
+		</group>
+		<group name="dam_miner_solid_mixed">
+			<select macro="ship_arg_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_l_miner_solid_01_b_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_solid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_miner_liquid_mixed">
+			<select macro="ship_arg_l_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_l_miner_liquid_01_b_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_miner_liquid_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_battleship_xl">
+			<select macro="ship_dam_xl_avatar_macro" weight="100"/>
+		</group>
+		<group name="dam_carrier_xl">
+			<select macro="ship_dam_xl_archon_macro" weight="100"/>
+		</group>
+		<group name="dam_destroyer_l">
+			<select macro="ship_dam_l_abaddon_macro" weight="100"/>
+			<select macro="ship_dam_l_armageddon_macro" weight="100"/>
+		</group>
+		<group name="dam_escort_l">
+			<select macro="ship_dam_l_omen_macro" weight="100"/>
+			<select macro="ship_dam_l_oracle_macro" weight="100"/>
+			<select macro="ship_dam_l_legion_macro" weight="100"/>
+			<select macro="ship_dam_l_harbinger_macro" weight="100"/>
+		</group>
+		<group name="dam_frigate_m">
+			<select macro="ship_arg_m_frigate_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_frigate_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_gunboat_m">
+			<select macro="ship_arg_m_bomber_01_a_macro" weight="100"/>
+			<select macro="ship_arg_m_bomber_01_b_macro" weight="100"/>
+		</group>
+		<group name="dam_fighter_s">
+			<select macro="ship_arg_s_heavyfighter_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_01_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_01_b_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_02_b_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_03_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_04_a_macro" weight="100"/>
+		</group>
+		<group name="dam_fighter_heavy_s">
+			<select macro="ship_arg_s_heavyfighter_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_03_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_04_a_macro" weight="100"/>
+		</group>
+		<group name="dam_fighter_light_s">
+			<select macro="ship_arg_s_fighter_01_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_01_b_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_02_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_03_a_macro" weight="100"/>
+			<select macro="ship_arg_s_fighter_04_a_macro" weight="100"/>
+		</group>
+		<group name="dam_scout_s">
+			<select macro="ship_arg_s_scout_01_a_macro" weight="100"/>
+			<select macro="ship_arg_s_scout_01_b_macro" weight="100"/>
+		</group>
+	</add>
+</diff>

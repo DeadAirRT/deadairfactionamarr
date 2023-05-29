@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dam_l_oracle_macro" class="shieldgenerator">
+		<component ref="ishield_dam_l_oracle"/>
+		<properties>
+			<identification name="{4816301,904}"/>
+			<recharge max="120285" rate="740" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

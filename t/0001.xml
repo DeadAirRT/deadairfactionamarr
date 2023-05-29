@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="4816301" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
+		<!-- 3323247 == deadair -->
+		<!--48163x69 == 3323247 since there is a character limit -->
+		<!--48163##-->
+		<t id="100">Amarr Empire</t>
+		<t id="101">The Amarr Empire is a sprawling patchwork of feudal-like provinces held together by the might of the emperor. Religion has always played a big part in Amarrian politics and the Amarrians believe they are the rightful masters of the world, souring their relations with their neighbors. Another source of ill-feelings on the part of the other empires is the fact that the Amarrians embrace slavery.</t>
+		<t id="102">AMR</t>
+		<t id="103">Empire Capital Equipment Licence</t>
+		<t id="104">Empire Capital Ship Licence</t>
+		<t id="105">Warrior of the Empire</t>
+		<t id="106">Friend of the Empire</t>
+		<t id="107">Empire General Use Equipment Licence</t>
+		<t id="108">Empire General Use Ship Licence</t>
+		<t id="109">Empire Military Equipment Licence</t>
+		<t id="110">Empire Military Ship Licence</t>
+		<t id="111">Empire Police Licence</t>
+		<t id="112">Empire Capital Ship Building Module Licence</t>
+		<t id="113">Empire Ancillary Ship Building Module Licence</t>
+		<t id="114">Empire Advanced Module Licence</t>
+		<t id="115">Empire Basic Module Licence</t>
+		<t id="116">Empire Intermediate Module Licence</t>
+		<t id="117">Empire Trade Offer Subscription</t>
+		<t id="118">Empire</t>
+		<t id="119">Empire Ship Sale Contract</t>
+		<t id="120">Hedion</t>
+		<t id="121">Bhizheba</t>
+		<t id="122">Irnal</t>
+		<t id="123">Amarr</t>
+		<t id="124">Ashab</t>
+		<t id="125">Sarum Prime</t>
+		<t id="126">Chaven</t>
+		<t id="127">DA Amarr Noble</t>
+		<t id="128">DA Amarr Noble \({20102,2011}\)</t>
+		<t id="129">You are a young Amarrian noble tired of your comfortable life. You decide to venture out on your own to see what trouble you can get into.</t>
+		<t id="130">Misaba</t>
+		<t id="131">Sarum Red</t>
+		<t id="132">Khanid Dark</t>
+		<t id="133">Amarr Gold Navy Camo</t>
+		<t id="134">Amarr Gold Hybrid Camo</t>
+		<t id="135">Amarr Gold Digital Camo</t>
+		<t id="136">Amarr Gold Stitching</t>
+		<t id="137">Amarr Basic Design</t>
+		<t id="138">xxx</t>
+		<t id="139">xxx</t>
+		<t id="140">xxx</t>
+		<t id="141">xxx</t>
+		<t id="142">xxx</t>
+		<t id="197">Misaba Prime</t>
+		<t id="198">Amarr Prime</t>
+		<t id="199">Amarr</t>
+		<!-- Equipment -->
+		<t id="200">{4816301,102}(AMR) {20111,5031}(L) Multifrequency Mega Beam Laser</t>
+		<t id="202">{4816301,102}(AMR) {20111,5031}(L) Radio Mega Beam Laser</t>
+		<t id="204">{4816301,102}(AMR) {20111,5031}(L) Standard Mega Beam Laser</t>
+		<t id="206">{4816301,102}(AMR) {20111,5021}(M) Multifrequency Heavy Beam Laser</t>
+		<t id="207">{4816301,102}(AMR) {20111,5021}(M) Radio Heavy Beam Laser</t>
+		<t id="208">{4816301,102}(AMR) {20111,5021}(M) Standard Heavy Beam Laser</t>
+		<t id="209">{4816301,102}(AMR) {20111,5031}(L) Multifrequency Mega Beam Laser</t>
+		<t id="210">{4816301,102}(AMR) {20111,5031}(L) Radio Mega Beam Laser</t>
+		<t id="211">{4816301,102}(AMR) {20111,5031}(L) Standard Mega Beam Laser</t>
+		<t id="212">{4816301,102}(AMR) {20111,3001}(XL) Judgement Electromagnetic Doomsday</t>
+		<t id="213">{4816301,102}(AMR) {20111,5011}(S) Multifrequency Focused Beam Laser</t>
+		<t id="214">{4816301,102}(AMR) {20111,5011}(S) Radio Focused Beam Laser</t>
+		<t id="215">{4816301,102}(AMR) {20111,5011}(S) Standard Focused Beam Laser</t>
+		<t id="216">{4816301,102}(AMR) {20111,5031}(L) Multifrequency Mega Pulse Laser</t>
+		<t id="217">{4816301,102}(AMR) {20111,5031}(L) Radio Mega Pulse Laser</t>
+		<t id="218">{4816301,102}(AMR) {20111,5031}(L) Standard Mega Pulse Laser</t>
+		<t id="219">{4816301,102}(AMR) {20111,5021}(M) Multifrequency Heavy Pulse Laser</t>
+		<t id="220">{4816301,102}(AMR) {20111,5021}(M) Radio Heavy Pulse Laser</t>
+		<t id="221">{4816301,102}(AMR) {20111,5021}(M) Standard Heavy Pulse Laser</t>
+		<t id="264">{20111,5031}(L) Multifrequency Beam</t>
+		<t id="265">{20111,5031}(L) Radio Beam</t>
+		<t id="266">{20111,5031}(L) Standard Beam</t>
+		<t id="267">{20111,5031}(L) Multifrequency Pulse</t>
+		<t id="268">{20111,5031}(L) Radio Pulse</t>
+		<t id="269">{20111,5031}(L) Standard Pulse</t>
+		<t id="270">{20111,5021}(M) Multifrequency Beam</t>
+		<t id="271">{20111,5021}(M) Radio Beam</t>
+		<t id="272">{20111,5021}(M) Standard Beam</t>
+		<t id="273">{20111,5021}(M) Multifrequency Pulse</t>
+		<t id="274">{20111,5021}(M) Radio Pulse</t>
+		<t id="275">{20111,5021}(M) Standard Pulse</t>
+		<t id="276">{20111,5011}(S) Multifrequency Beam</t>
+		<t id="277">{20111,5011}(S) Radio Beam</t>
+		<t id="278">{20111,5011}(S) Standard Beam</t>
+		<t id="279">{20111,3001}(XL) Doomsday</t>
+		<t id="280">{4816301,102}(AMR) {20111,5031}(L){20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="288">Mega Pulse Laser</t>
+		<t id="289">Heavy Pulse Laser</t>
+		<t id="290">Mega Beam Laser</t>
+		<t id="291">Heavy Beam Laser</t>
+		<t id="292">Focused Beam Laser</t>
+		<!-- Weapon Description -->
+		<t id="300">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The multifrequency crystal attached randomly cycles the laser through the entire spectrum. The greatly increased damage comes at the cost of a significant reduction in range.</t>
+		<t id="301">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The radio crystal attached modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.</t>
+		<t id="302">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The standard crystal attached modulates the beam of a laser weapon into the visible light spectrum.</t>
+		<t id="303">The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place.</t>
+		<!-- Engines -->
+		<t id="600">{4816301,102}(AMR) {20111,5031}(L) {20107,9001}(Engine)</t>
+		<t id="601">{4816301,102}(AMR) {20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="602">{4816301,102}(AMR) {20111,5011}(S) {20107,9001}(Engine)</t>
+		<t id="603">{4816301,102}(AMR) {20111,5041}(XL) {20107,9001}(Engine)</t>
+		<t id="604">{4816301,102}(AMR) {20107,9001}(Engine)</t>
+		<!-- Ships -->
+		<t id="700">Omen</t>
+		<t id="701">Abaddon</t>
+		<t id="702">Providence</t>
+		<t id="703">Armageddon</t>
+		<t id="704">Oracle</t>
+		<t id="705">Legion</t>
+		<t id="706">Archon</t>
+		<t id="707">Avatar</t>
+		<t id="708">Harbinger</t>
+		<t id="709">Coercer</t>
+		<!-- Ship Desc -->
+		<t id="800">The Omen is a stereotypical example of the Amarrian School of thinking when it comes to ship design: thick armor and hard hitting lasers.</t>
+		<t id="801">The Abaddon class ship is a celestial tool of destruction. It is designed to enter combat from the outset, targeting enemies at range and firing salvo after salvo at them, and to remain intact on the battlefield until every heretic in sight has been torn to shreds.</t>
+		<t id="802">Even though characteristically last in the race to create a working Compact of new technology, the Empire's engineers spared no effort in bringing the Providence into the world. While the massive potential for profit from the capsuleer market is said to have been what eventually made the stolid Empire decide to involve themselves in the freighter business, their brainchild is by no means the runt of the litter; the Providence is one of the sturdiest freighters out there.</t>
+		<t id="803">The mighty Armageddon class is one of the enduring warhorses of the Amarr Empire. Once a juggernaut that steamrolled its way into battle, it has now taken on a more stately and calculated approach.</t>
+		<t id="804">In YC 113 Empress Jamyl Sarum I challenged Amarr ship manufacturers to build a new battlecruiser that would break the stalemate of the Empyrean War. Deviating from the doctrine of brute-force and heavy armor, the engineers at Viziam took inspiration from Caldari history.\n\During the Gallente-Caldari War, the Caldari developed light, maneuverable ships to counter the slow ships of the Gallente Federation. This philosophy, along with a cutting-edge powertrain and ultra-light alloy armor plating, led to the Oracle.\n\The Empire immediately ordered the ship into production. The Empress personally congratulated Viziam Chief Researcher Parud Vakirokiki, calling the ship "a work of Divine Grace for the Empire, and retribution to our enemies."</t>
+		<t id="805">Revelation burrows through the material world, devours creation's soil, digests the thoughtless void, and produces significance with God's grace. From emptiness comes meaning, essence from existence, soul from matter.\n\Is God through the wormhole? Did God grant us this boon, this new technology, a revelation from on high? These weapons are God's new prophecy, domain, and blessing. Let us use God's grace and prepare New Eden. We are God's soldiers, weapons, glory. Our people are God's army. Together, we are the legion.\n\The Heresies of Hinketsu</t>
+		<t id="806">The Archon was commissioned by the Amarr Navy to act as a personnel and fighter carrier. The order to create the ship came as part of a unilateral initative issued by Navy Command in the wake of Emperor Kor-Azor's assassination. Sporting the latest in fighter command interfacing technology and possessing characteristically strong defenses, the Archon is a powerful aid in any engagement.</t>
+		<t id="807">Casting his sight on his realm, the Lord witnessed\n\The cascade of evil, the torrents of war.\n\Burning with wrath, He stepped\n\down from the Heavens\n\To judge the unworthy,\n\To redeem the pure.\n\-The Scriptures, Revelation Verses 2:12</t>
+		<t id="808">Right from its very appearance on a battlefield, the Harbinger proclaims its status as a massive weapon, a laser burning through the heart of the ungodly. Everything about it exhibits this focused intent, from the lights on its nose and wings that root out the infidels, to the large number of turreted high slots that serve to destroy them. Should any heathens be left alive after the Harbinger's initial assault, its drones will take care of them.</t>
+		<t id="809">Noticing the alarming increase in Minmatar frigate fleets, the Imperial Navy made its plans for the Coercer, a vessel designed specifically to seek and destroy the droves of fast-moving frigate rebels.</t>
+		<!-- IG -->
+		<t id="900">IG L - Omen Internal Generator</t>
+		<t id="901">IG L - Abaddon Internal Generator</t>
+		<t id="902">IG L - Providence Internal Generator</t>
+		<t id="903">IG L - Armageddon Internal Generator</t>
+		<t id="904">IG L - Oracle Internal Generator</t>
+		<t id="905">IG L - Legion Internal Generator</t>
+		<t id="906">IG XL - Archon Internal Generator</t>
+		<t id="907">IG XL - Avatar Internal Generator</t>
+		<t id="908">IG L - Harbinger Internal Generator</t>
+		<t id="909">IG M - Coercer Internal Generator</t>
+		<!-- Stations -->
+		<t id="1101">Amarr Defence Platform</t>
+		<t id="1111">Amarr Trading Station</t>
+		<t id="1121">Amarr Equipment Dock</t>
+		<t id="1131">Amarr Shipyard</t>
+		<t id="1141">Amarr Wharf</t>
+		<!-- BosoTaDA -->
+		<t id="9000">I have important news! It looks like the Amarr are trying to activate a gate. I have added new research.</t>
+		<t id="9001">Amarr Gate Activation</t>
+		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
+		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
+		<t id="9004">I have important news! We can activate new gates into Amarr space. Let us show them the power of science! I have added new research.</t>
+	</page>
+</language>

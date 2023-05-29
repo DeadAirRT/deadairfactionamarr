@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<components>
+	<component name="ship_dam_m_coercer" class="ship_m">
+		<source geometry="extensions\deadairfactionamarr\assets\units\size_m\ship_dam_m_coercer_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+				<trailemitters/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="ship ship_m">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part">
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<size>
+							<max x="20.0985" y="8.43442" z="49.1594"/>
+							<center x="-3.89073" y="3.31243" z="8.10064"/>
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="coercer.evemata"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="coercer.evemata"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="coercer.evemata"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="coercer.evemata"/>
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000"/>
+				</offset>
+			</connection>
+			<connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+					<position x="0" y="22.11559" z="7.128704"/>
+				</offset>
+			</connection>
+			<connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="22.02071" z="2.036606"/>
+				</offset>
+			</connection>
+			<connection name="con_cockpit" tags="part cockpit_hidden_da nocollision noshadowcaster geometryinvisible" hidden="true">
+				<offset>
+					<position x="0" y="13.5" z="5"/>
+				</offset>
+			</connection>
+			<connection name="con_dock_xs" tags="dock_xs">
+				<offset>
+					<position x="0" y="2.82" z="24.02"/>
+					<quaternion qx="0.7071068" qy="0" qz="0" qw="0.7071068"/>
+				</offset>
+			</connection>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-16.74685" z="66.26004"/>
+				</offset>
+			</connection>
+			<!-- Cerb dockpos
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-21.11654" z="73.20691"/>
+				</offset>
+			</connection>-->
+			<!-- VRO -->
+			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_dam_m_coercer">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+			<!-- Custom -->
+			<connection name="con_engine_m_engines_1" tags="engine medium">
+				<offset>
+					<position x="-8.4" y="6.673" z="-34.0423"/>
+				</offset>
+			</connection>
+			<connection name="con_engine_m_engines_2" tags="engine medium">
+				<offset>
+					<position x="6.4189" y="8.1131" z="-34.6729"/>
+				</offset>
+			</connection>
+			<connection name="con_engine_m_engines_3" tags="engine medium">
+				<offset>
+					<position x="8.7039" y="4.0657" z="-23.5453"/>
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_1" tags="countermeasures">
+				<offset>
+					<position x="-12.5544" y="7.7682" z="-41.4186"/>
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_2" tags="countermeasures">
+				<offset>
+					<position x="11.1478" y="6.9" z="-37.7891"/>
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_3" tags="countermeasures">
+				<offset>
+					<position x="21.9" y="4.5106" z="-14.5985"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

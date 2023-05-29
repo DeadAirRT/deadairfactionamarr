@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- STATIONS STATIONS STATIONS STATIONS STATIONS STATIONS -->
+	<add sel="//god/stations">
+		<station id="dam_defence_cluster_DAM1_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAM1_Cluster_DAM1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM1_sector001_02" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAM5_Cluster_DAM1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM2_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM2_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM3_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM3_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM4_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM5_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM5_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM6_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM6_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="dam_defence_cluster_DAM7_sector001" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM7_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[defence]"/>
+			</station>
+		</station>
+		<station id="shipyard_damarr_01" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAM3_Cluster_DAM4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[shipyard]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="wharf_damarr_01" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAM5_Cluster_DAM4_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[wharf]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="tradestation_damarr_01" race="argon" owner="damarr" type="tradingstation">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[tradestation]"/>
+				<loadout>
+					<level min="0.75" max="1.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="equipmentdock_damarr_01" race="argon" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="ZoneDAMc_Cluster_DAM1_Sector001_macro" matchextension="false"/>
+			<station>
+				<select faction="damarr" tags="[equipmentdock]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
+	<!-- END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS END STATIONS -->
+	<!-- PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS PRODUCTS -->
+	<add sel="//god/products">
+		<product id="dam_advancedcomposites" ware="advancedcomposites" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="6"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="advancedcomposites" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_advancedelectronics" ware="advancedelectronics" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="12"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="advancedelectronics" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_antimattercells" ware="antimattercells" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="4" sector="4"/>
+				<!--minorantimattercells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="hydrogen" max="100000"/>
+			</location>
+			<module>
+				<select ware="antimattercells" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_antimatterconverters" ware="antimatterconverters" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorantimatterconverters-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="antimatterconverters" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_claytronics" ware="claytronics" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorclaytronics-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="claytronics" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_dronecomponents" ware="dronecomponents" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="12"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="dronecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_energycells" ware="energycells" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="20"/>
+				<!--minorenergycells-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<sunlight min="1.0"/>
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="energycells" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_engineparts" ware="engineparts" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="engineparts" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_fieldcoils" ware="fieldcoils" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="4"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="fieldcoils" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_foodrations" ware="foodrations" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="25" sector="20"/>
+				<!--minorfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="foodrations" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_graphene" ware="graphene" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="28"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="methane" max="100000"/>
+			</location>
+			<module>
+				<select ware="graphene" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_hullparts" ware="hullparts" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="70" sector="36"/>
+				<!--minorhullparts-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="hullparts" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_meat" ware="meat" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="meat" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_medicalsupplies" ware="medicalsupplies" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="40" sector="24"/>
+				<!--minormedicalsupplies-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false"/>
+			<module>
+				<select ware="medicalsupplies" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_microchips" ware="microchips" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="42" sector="24"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="microchips" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_missilecomponents" ware="missilecomponents" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="missilecomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_plasmaconductors" ware="plasmaconductors" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="18"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="plasmaconductors" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_quantumtubes" ware="quantumtubes" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="24"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="quantumtubes" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_refinedmetals" ware="refinedmetals" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="46"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ore" max="100000"/>
+			</location>
+			<module>
+				<select ware="refinedmetals" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_scanningarrays" ware="scanningarrays" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="9"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="scanningarrays" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_shieldcomponents" ware="shieldcomponents" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="shieldcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_siliconwafers" ware="siliconwafers" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="28"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="silicon" max="100000"/>
+			</location>
+			<module>
+				<select ware="siliconwafers" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_smartchips" ware="smartchips" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="20"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="smartchips" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_spices" ware="spices" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="12" sector="12"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="spices" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_superfluidcoolant" ware="superfluidcoolant" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="helium" max="100000"/>
+			</location>
+			<module>
+				<select ware="superfluidcoolant" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_turretcomponents" ware="turretcomponents" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="20" sector="10"/>
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="turretcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_water" ware="water" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="8" sector="8"/>
+				<!--minorwater-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<region ware="ice" max="100000"/>
+			</location>
+			<module>
+				<select ware="water" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_weaponcomponents" ware="weaponcomponents" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="16" sector="8"/>
+				<!--minorweaponcomponents-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.75"/>
+			</location>
+			<module>
+				<select ware="weaponcomponents" race="argon"/>
+			</module>
+		</product>
+		<product id="dam_wheat" ware="wheat" owner="damarr" type="factory">
+			<quotas>
+				<quota galaxy="9" sector="9"/>
+				<!--minorsubfood-->
+			</quotas>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[damarr]" relation="self" comparison="exact" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
+			<module>
+				<select ware="wheat" race="argon"/>
+			</module>
+		</product>
+		<!-- END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS END PRODUCTS -->
+	</add>
+	<add sel="//god/stations/station[@id='x4ep1_gamestart_scientist_hq'][@race='argon']" pos="after">
+		<station id="x4ep1_gamestart_dam_adv_hq" race="argon" owner="player" type="headquarters">
+			<quotas>
+				<quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_dam_adv"/>
+			</quotas>
+			<location class="sector" macro="cluster_dam5_sector001_macro" matchextension="false"/>
+			<position x="0" y="0" z="-50000" pitch="0" roll="0" yaw="0"/>
+			<station constructionplan="'x4ep1_playerheadquarters_with_dock'">
+				<loadout>
+					<level exact="0.2"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
+	<add sel="//god/stations">
+		<station id="tel_defence_cluster_15_sector002_DAM" race="teladi" owner="teladi" type="factory">
+			<quotas>
+				<quota galaxy="1" zone="1"/>
+			</quotas>
+			<location class="zone" macro="Zone003_Cluster_15_Sector002_macro" matchextension="false"/>
+			<station>
+				<select faction="teladi" tags="[defence]"/>
+				<loadout>
+					<level exact="1.0"/>
+				</loadout>
+			</station>
+		</station>
+	</add>
+</diff>

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<components>
+	<component name="Cluster_DAM3" class="celestialbody">
+		<source geometry="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam3_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_13" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="-3.9022E+08" y="1.10228E+08" z="4.25155E+07"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="65" g="74" b="76" range="1E+11" intensity="0.3">
+						<lightanimations/>
+						<offset>
+							<position x="1.486322E+07" y="0" z="-1.4658E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part">
+				<parts>
+					<part name="eveskybox">
+						<size>
+							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
+							<center x="512" y="-480" z="0" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="amarrsky.irnal" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<quaternion qx="0.707" qy="0" qz="0" qw="0.707"/>
+				</offset>
+			</connection>
+			<connection name="Connection10" tags="part  ">
+				<offset>
+					<position x="5979094" y="-467984.4" z="-1.118892E+07"/>
+				</offset>
+				<parts>
+					<part name="bigstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.766411E+08" y="3.667075E+08" z="3.865271E+08"/>
+							<center x="-8586953" y="3570360" z="3776433"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part  ">
+				<offset>
+					<position x="3.565094E+07" y="-3.43953E+07" z="2.846741E+07"/>
+				</offset>
+				<parts>
+					<part name="mediumstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.38194E+08" y="1.214091E+08" z="3.919437E+08"/>
+							<center x="-3.242654E+07" y="2.020536E+07" z="-1.657266E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part  ">
+				<offset>
+					<position x="4572946" y="-1.338797E+07" z="-1.893891E+07"/>
+				</offset>
+				<parts>
+					<part name="smallstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.876408E+08" y="3.574311E+08" z="3.679165E+08"/>
+							<center x="-5879446" y="-2198828" z="-603580.1"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

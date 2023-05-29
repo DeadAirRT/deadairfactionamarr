@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<add sel="//index">
+		<entry name="Cluster_DAM1" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam1"/>
+		<entry name="Cluster_DAM2" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam2"/>
+		<entry name="Cluster_DAM3" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam3"/>
+		<entry name="Cluster_DAM4" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam4"/>
+		<entry name="Cluster_DAM5" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam5"/>
+		<entry name="Cluster_DAM6" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam6"/>
+		<entry name="Cluster_DAM7" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam7"/>
+		<entry name="Cluster_DAM8" value="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam8"/>
+		<!-- Turrets -->
+		<entry name="turret_dam_l_beam_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_multifrequency_mk1"/>
+		<entry name="turret_dam_l_beam_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_radio_mk1"/>
+		<entry name="turret_dam_l_beam_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_standard_mk1"/>
+		<entry name="turret_dam_m_beam_01_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_multifrequency_mk1"/>
+		<entry name="turret_dam_m_beam_01_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_radio_mk1"/>
+		<entry name="turret_dam_m_beam_01_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_standard_mk1"/>
+		<entry name="turret_dam_m_beam_02_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_multifrequency_mk1"/>
+		<entry name="turret_dam_m_beam_02_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_radio_mk1"/>
+		<entry name="turret_dam_m_beam_02_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_standard_mk1"/>
+		<entry name="weapon_dam_l" value="extensions\deadairfactionamarr\assets\props\weaponsystems\capital\weapon_dam_l"/>
+		<entry name="weapon_dam_xl" value="extensions\deadairfactionamarr\assets\props\weaponsystems\capital\weapon_dam_xl"/>
+		<entry name="weapon_dam_m_beam" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\weapon_dam_m_beam"/>
+		<entry name="weapon_dam_s_beam" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\weapon_dam_s_beam"/>
+		<entry name="turret_dam_l_pulse" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_pulse"/>
+		<entry name="turret_dam_m_pulse_01" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_pulse_01"/>
+		<entry name="turret_dam_m_pulse_02" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_pulse_02"/>
+		<!-- T3BC -->
+		<entry name="turret_dam_t3bc_beam_multifrequency" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_multifrequency"/>
+		<entry name="turret_dam_t3bc_beam_radio" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_radio"/>
+		<entry name="turret_dam_t3bc_beam_standard" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_beam_standard"/>
+		<entry name="engine_dam_t3bc" value="extensions\deadairfactionamarr\assets\props\engines\engine_dam_t3bc"/>
+		<entry name="turret_dam_t3bc_pulse" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_t3bc_pulse"/>
+		<!-- Bullets -->
+		<entry name="bullet_dam_l_beam_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_l_beam_multifrequency_mk1"/>
+		<entry name="bullet_dam_l_beam_radio_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_l_beam_radio_mk1"/>
+		<entry name="bullet_dam_l_beam_standard_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_l_beam_standard_mk1"/>
+		<entry name="bullet_dam_m_beam_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_m_beam_multifrequency_mk1"/>
+		<entry name="bullet_dam_m_beam_radio_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_m_beam_radio_mk1"/>
+		<entry name="bullet_dam_m_beam_standard_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_m_beam_standard_mk1"/>
+		<entry name="bullet_dam_s_beam_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_s_beam_multifrequency_mk1"/>
+		<entry name="bullet_dam_s_beam_radio_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_s_beam_radio_mk1"/>
+		<entry name="bullet_dam_s_beam_standard_mk1" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_s_beam_standard_mk1"/>
+		<entry name="bullet_dam_l_pulse" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_l_pulse"/>
+		<entry name="bullet_dam_m_pulse" value="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_m_pulse"/>
+		<!-- Ships / Ishield -->
+		<entry name="ship_dam_l_omen" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_omen"/>
+		<entry name="ship_dam_l_abaddon" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_abaddon"/>
+		<entry name="ship_dam_l_providence" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_providence"/>
+		<entry name="ship_dam_l_armageddon" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_armageddon"/>
+		<entry name="ship_dam_l_oracle" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_oracle"/>
+		<entry name="ship_dam_l_legion" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_legion"/>
+		<entry name="ship_dam_l_harbinger" value="extensions\deadairfactionamarr\assets\units\size_l\ship_dam_l_harbinger"/>
+		<entry name="ship_dam_xl_archon" value="extensions\deadairfactionamarr\assets\units\size_xl\ship_dam_xl_archon"/>
+		<entry name="ship_dam_xl_avatar" value="extensions\deadairfactionamarr\assets\units\size_xl\ship_dam_xl_avatar"/>
+		<entry name="ishield_dam_l_omen" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_omen"/>
+		<entry name="ishield_dam_l_abaddon" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_abaddon"/>
+		<entry name="ishield_dam_l_providence" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_providence"/>
+		<entry name="ishield_dam_l_armageddon" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_armageddon"/>
+		<entry name="ishield_dam_l_oracle" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_oracle"/>
+		<entry name="ishield_dam_l_legion" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_legion"/>
+		<entry name="ishield_dam_l_harbinger" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_l_harbinger"/>
+		<entry name="ishield_dam_xl_archon" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_xl_archon"/>
+		<entry name="ishield_dam_xl_avatar" value="extensions\deadairfactionamarr\assets\props\surfaceelements\ishield_dam_xl_avatar"/>
+	</add>
+</diff>

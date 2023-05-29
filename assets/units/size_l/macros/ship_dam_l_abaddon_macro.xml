@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ship_dam_l_abaddon_macro" class="ship_l">
+		<component ref="ship_dam_l_abaddon"/>
+		<properties>
+			<identification name="{4816301,701}" basename="{4816301,701}" description="{4816301,801}" icon="ship_l_fight_01"/>
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" compatible="1"/>
+			</software>
+			<explosiondamage value="1000" shield="5000"/>
+			<storage missile="180" unit="25"/>
+			<hull max="366665"/>
+			<secrecy level="2"/>
+			<purpose primary="fight"/>
+			<people capacity="73"/>
+			<physics mass="384.22">
+				<inertia pitch="265.45" yaw="375.95" roll="268.68"/>
+				<drag forward="211.32" reverse="894.56" horizontal="264.52" vertical="264.52" pitch="265.45" yaw="375.95" roll="268.68"/>
+			</physics>
+			<thruster tags="large"/>
+			<ship type="battleship"/>
+			<sound_occlusion inside="0.9"/>
+		</properties>
+		<connections>
+			<connection ref="con_cockpit">
+				<macro ref="bridge_arg_l_01_macro" connection="con_cockpit"/>
+			</connection>
+			<connection ref="con_storage01">
+				<macro ref="storage_dam_l_abaddon_macro" connection="ShipConnection"/>
+			</connection>
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>

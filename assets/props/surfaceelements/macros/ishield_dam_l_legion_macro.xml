@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dam_l_legion_macro" class="shieldgenerator">
+		<component ref="ishield_dam_l_legion"/>
+		<properties>
+			<identification name="{4816301,905}"/>
+			<recharge max="148500" rate="740" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

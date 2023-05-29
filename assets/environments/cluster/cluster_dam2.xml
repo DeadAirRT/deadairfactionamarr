@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<components>
+	<component name="Cluster_DAM2" class="celestialbody">
+		<source geometry="extensions\deadairfactionamarr\assets\environments\cluster\cluster_dam2_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="0.75">
+						<lightanimations/>
+						<offset>
+							<position x="3.44987E+07" y="8.266394E+07" z="-2.72867E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="65" g="74" b="76" range="1E+11" intensity="0.3">
+						<lightanimations/>
+						<offset>
+							<position x="5.922367E+07" y="0" z="7.721783E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part">
+				<parts>
+					<part name="eveskybox">
+						<size>
+							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
+							<center x="512" y="-480" z="0" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="amarrsky.bhizheba" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<quaternion qx="0.707" qy="0" qz="0" qw="0.707"/>
+				</offset>
+			</connection>
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="5289843" y="-1.654493E+07" z="-7424373"/>
+				</offset>
+				<parts>
+					<part name="mediumstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.190706E+08" y="3.616261E+08" z="4.29686E+08"/>
+							<center x="0.9765625" y="9.765625" z="-1.953125"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="-3.472753E+07" y="-2.408709E+07" z="6.54708E+07"/>
+				</offset>
+				<parts>
+					<part name="bigstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.113457E+08" y="3.465801E+08" z="3.217622E+08"/>
+							<center x="0" y="-7.8125" z="7.8125"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

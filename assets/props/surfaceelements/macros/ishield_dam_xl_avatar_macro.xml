@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dam_xl_avatar_macro" class="shieldgenerator">
+		<component ref="ishield_dam_xl_avatar"/>
+		<properties>
+			<identification name="{4816301,907}"/>
+			<recharge max="366666" rate="1195" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

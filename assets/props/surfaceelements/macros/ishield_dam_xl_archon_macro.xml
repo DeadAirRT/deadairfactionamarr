@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dam_xl_archon_macro" class="shieldgenerator">
+		<component ref="ishield_dam_xl_archon"/>
+		<properties>
+			<identification name="{4816301,906}"/>
+			<recharge max="55000" rate="1165" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

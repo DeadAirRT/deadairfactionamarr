@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dam_l_abaddon_macro" class="shieldgenerator">
+		<component ref="ishield_dam_l_abaddon"/>
+		<properties>
+			<identification name="{4816301,901}"/>
+			<recharge max="63333" rate="715" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>
