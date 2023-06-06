@@ -205,36 +205,6 @@
 	<add sel="/wares/ware[@id='module_gen_prod_weaponcomponents_01']">
 		<owner faction="damarr"/>
 	</add>
-	<add sel="/wares/ware[@id='shield_arg_l_standard_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_l_standard_01_mk2']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_01_mk2']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_02_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_m_standard_02_mk2']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_s_standard_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_s_standard_01_mk2']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_s_standard_01_mk3']">
-		<owner faction="damarr"/>
-	</add>
-	<add sel="/wares/ware[@id='shield_arg_xl_standard_01_mk1']">
-		<owner faction="damarr"/>
-	</add>
 	<add sel="/wares/ware[@id='ship_arg_l_miner_liquid_01_a']">
 		<owner faction="damarr"/>
 	</add>
@@ -376,7 +346,7 @@
 	<add sel="//wares">
 		<ware id="turret_dam_l_beam_multifrequency_mk1" name="{4816301,200}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="242416" average="506640" max="1039232"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
@@ -390,7 +360,7 @@
 		</ware>
 		<ware id="turret_dam_l_beam_radio_mk1" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="213568" average="446007" max="914336"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
@@ -404,7 +374,7 @@
 		</ware>
 		<ware id="turret_dam_l_beam_standard_mk1" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="193504" average="404376" max="829408"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
@@ -502,7 +472,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_beam_multifrequency" name="{4816301,200}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="242416" average="506640" max="1039232"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
@@ -516,7 +486,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_beam_radio" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="213568" average="446007" max="914336"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
@@ -530,7 +500,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_beam_standard" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="193504" average="404376" max="829408"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
@@ -705,7 +675,7 @@
 		</ware>
 		<ware id="turret_dam_l_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="242416" average="506640" max="1039232"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
@@ -719,7 +689,7 @@
 		</ware>
 		<ware id="turret_dam_l_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="213568" average="446007" max="914336"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
@@ -733,7 +703,7 @@
 		</ware>
 		<ware id="turret_dam_l_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="193504" average="404376" max="829408"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
@@ -831,7 +801,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="242416" average="506640" max="1039232"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="119"/>
 					<ware ware="energycells" amount="1000"/>
@@ -845,7 +815,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="213568" average="446007" max="914336"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="105"/>
 					<ware ware="energycells" amount="880"/>
@@ -859,7 +829,7 @@
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 			<price min="193504" average="404376" max="829408"/>
-			<production time="20" amount="1" method="default" name="{20206,101}">
+			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="95"/>
 					<ware ware="energycells" amount="800"/>
@@ -876,7 +846,7 @@
 		<!-- SHIPS -->
 		<ware id="ship_dam_l_omen" name="{4816301,700}" description="{4816301,800}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="3892018" average="4578845" max="5265672"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="150" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="1733"/>
 					<ware ware="hullparts" amount="4249"/>
@@ -888,7 +858,7 @@
 		</ware>
 		<ware id="ship_dam_l_abaddon" name="{4816301,701}" description="{4816301,801}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="5698387" average="6703985" max="7709583"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="300" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="2538"/>
 					<ware ware="hullparts" amount="6221"/>
@@ -900,7 +870,7 @@
 		</ware>
 		<ware id="ship_dam_l_providence" name="{4816301,702}" description="{4816301,802}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="3049154" average="3587240" max="4125326"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="150" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="1264"/>
 					<ware ware="hullparts" amount="3336"/>
@@ -912,7 +882,7 @@
 		</ware>
 		<ware id="ship_dam_l_armageddon" name="{4816301,703}" description="{4816301,803}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="5179930" average="6094035" max="7008140"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="270" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="2307"/>
 					<ware ware="hullparts" amount="5655"/>
@@ -924,7 +894,7 @@
 		</ware>
 		<ware id="ship_dam_l_oracle" name="{4816301,704}" description="{4816301,804}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="3538410" average="4162835" max="4787260"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="180" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="1575"/>
 					<ware ware="hullparts" amount="3863"/>
@@ -936,7 +906,7 @@
 		</ware>
 		<ware id="ship_dam_l_legion" name="{4816301,705}" description="{4816301,805}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="4281289" average="5036810" max="5792332"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="210" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="1906"/>
 					<ware ware="hullparts" amount="4674"/>
@@ -948,7 +918,7 @@
 		</ware>
 		<ware id="ship_dam_l_harbinger" name="{4816301,708}" description="{4816301,808}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="4709089" average="5540105" max="6371121"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="240" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="2097"/>
 					<ware ware="hullparts" amount="5141"/>
@@ -960,7 +930,7 @@
 		</ware>
 		<ware id="ship_dam_xl_archon" name="{4816301,706}" description="{4816301,806}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="7555863" average="8889250" max="10222638"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="480" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="3350"/>
 					<ware ware="hullparts" amount="8250"/>
@@ -972,7 +942,7 @@
 		</ware>
 		<ware id="ship_dam_xl_avatar" name="{4816301,707}" description="{4816301,807}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="9445306" average="11112125" max="12778944"/>
-			<production time="30" amount="1" method="default" name="{20206,101}">
+			<production time="540" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="4188"/>
 					<ware ware="hullparts" amount="10313"/>
@@ -1234,6 +1204,219 @@
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="damarr"/>
+		</ware>
+	</add>
+	<!-- Shields -->
+	<add sel="//wares">
+		<ware id="shield_dam_l_standard_01_mk1" name="{4816301,500}" description="{20106,3002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="42166" average="46851" max="51536"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="50"/>
+					<ware ware="fieldcoils" amount="13"/>
+					<ware ware="shieldcomponents" amount="10"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="2"/>
+					<ware ware="energycells" amount="77"/>
+					<ware ware="hullparts" amount="13"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_l_standard_01_mk1_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_l_standard_01_mk2" name="{4816301,501}" description="{20106,3042}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="205644" average="228494" max="251343"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="fieldcoils" amount="65"/>
+					<ware ware="shieldcomponents" amount="50"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="11"/>
+					<ware ware="energycells" amount="136"/>
+					<ware ware="hullparts" amount="63"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_l_standard_01_mk2_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.25"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_m_standard_01_mk1" name="{4816301,502}" description="{20106,2002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12838" average="14264" max="15691"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="fieldcoils" amount="3"/>
+					<ware ware="shieldcomponents" amount="5"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="104"/>
+					<ware ware="hullparts" amount="4"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_m_standard_01_mk1_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_m_standard_01_mk2" name="{4816301,503}" description="{20106,2042}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="62115" average="69017" max="75918"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+					<ware ware="fieldcoils" amount="15"/>
+					<ware ware="shieldcomponents" amount="25"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="3"/>
+					<ware ware="energycells" amount="89"/>
+					<ware ware="hullparts" amount="19"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_m_standard_01_mk2_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.25"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_m_standard_02_mk1" name="{4816301,502}" description="{20106,2002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12838" average="14264" max="15691"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="fieldcoils" amount="3"/>
+					<ware ware="shieldcomponents" amount="5"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="104"/>
+					<ware ware="hullparts" amount="4"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_m_standard_02_mk1_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_m_standard_02_mk2" name="{4816301,503}" description="{20106,2042}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="61597" average="68441" max="75285"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+					<ware ware="fieldcoils" amount="15"/>
+					<ware ware="shieldcomponents" amount="25"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="3"/>
+					<ware ware="energycells" amount="89"/>
+					<ware ware="hullparts" amount="19"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_m_standard_02_mk2_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.25"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_s_standard_01_mk1" name="{4816301,504}" description="{20106,1002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="1218" average="1354" max="1489"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="shieldcomponents" amount="1"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="17"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_s_standard_01_mk1_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_s_standard_01_mk2" name="{4816301,505}" description="{20106,1042}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="10186" average="11318" max="12449"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="fieldcoils" amount="2"/>
+					<ware ware="shieldcomponents" amount="5"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="81"/>
+					<ware ware="hullparts" amount="3"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_s_standard_01_mk2_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.25"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_s_standard_01_mk3" name="{4816301,506}" description="{20106,1082}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="49892" average="55436" max="60979"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="fieldcoils" amount="10"/>
+					<ware ware="shieldcomponents" amount="25"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="2"/>
+					<ware ware="energycells" amount="120"/>
+					<ware ware="hullparts" amount="15"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_s_standard_01_mk3_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.55"/>
+			<owner faction="damarr"/>
+		</ware>
+		<ware id="shield_dam_xl_standard_01_mk1" name="{4816301,507}" description="{20106,4002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="225671" average="250745" max="275820"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="150"/>
+					<ware ware="fieldcoils" amount="82"/>
+					<ware ware="shieldcomponents" amount="30"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="12"/>
+					<ware ware="energycells" amount="170"/>
+					<ware ware="hullparts" amount="70"/>
+				</primary>
+			</production>
+			<component ref="shield_dam_xl_standard_01_mk1_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="damarr"/>
+		</ware>
+	</add>
+	<!-- Paint -->
+	<add sel="//wares">
+		<ware id="paintmod_damarr" name="{4816301,131}" description="" transport="inventory" volume="1" tags="inventory paintmod">
+			<price min="2500" average="3000" max="3500"/>
 		</ware>
 	</add>
 </diff>

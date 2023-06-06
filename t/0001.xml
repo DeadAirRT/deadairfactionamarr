@@ -35,18 +35,8 @@
 		<t id="128">DA Amarr Noble \({20102,2011}\)</t>
 		<t id="129">You are a young Amarrian noble tired of your comfortable life. You decide to venture out on your own to see what trouble you can get into.</t>
 		<t id="130">Misaba</t>
-		<t id="131">Sarum Red</t>
-		<t id="132">Khanid Dark</t>
-		<t id="133">Amarr Gold Navy Camo</t>
-		<t id="134">Amarr Gold Hybrid Camo</t>
-		<t id="135">Amarr Gold Digital Camo</t>
-		<t id="136">Amarr Gold Stitching</t>
-		<t id="137">Amarr Basic Design</t>
-		<t id="138">xxx</t>
-		<t id="139">xxx</t>
-		<t id="140">xxx</t>
-		<t id="141">xxx</t>
-		<t id="142">xxx</t>
+		<t id="131">Amarr Basic Design</t>
+		<t id="132">xxx</t>
 		<t id="197">Misaba Prime</t>
 		<t id="198">Amarr Prime</t>
 		<t id="199">Amarr</t>
@@ -97,6 +87,15 @@
 		<t id="301">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The radio crystal attached modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.</t>
 		<t id="302">These energy based weapons do EM and Thermal damage, making these weapons great for cutting through shields, and not as good at penetrating armor. The standard crystal attached modulates the beam of a laser weapon into the visible light spectrum.</t>
 		<t id="303">The ultimate expression of God's Divine wrath, this weapon projects a beam of the Lord's holy light, designed to put sinners in their proper place.</t>
+		<!-- Shields -->
+		<t id="500">{4816301,102}(AMR) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="501">{4816301,102}(AMR) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="502">{4816301,102}(AMR) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="503">{4816301,102}(AMR) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="504">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="505">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="506">{4816301,102}(AMR) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,301}(Mk3)</t>
+		<t id="507">{4816301,102}(AMR) {20111,5041}(XL) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
 		<!-- Engines -->
 		<t id="600">{4816301,102}(AMR) {20111,5031}(L) {20107,9001}(Engine)</t>
 		<t id="601">{4816301,102}(AMR) {20111,5021}(M) {20107,9001}(Engine)</t>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_dam_s_beam_radio_mk1" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_gen_s_beam_01_mk2_data"/>
+		<source geometry="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_s_beam_radio_mk1_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

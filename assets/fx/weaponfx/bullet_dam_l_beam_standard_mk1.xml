@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_dam_l_beam_standard_mk1" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_arg_l_beam_01_mk1_data"/>
+		<source geometry="extensions\deadairfactionamarr\assets\fx\weaponfx\bullet_dam_l_beam_standard_mk1_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
