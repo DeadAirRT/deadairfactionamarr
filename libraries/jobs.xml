@@ -1424,6 +1424,9 @@
 			</loadout>
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
+		<subordinates>
+			<subordinate job="damarr_trader_escort_s_da" assignment="trade" group="1"/>
+		</subordinates>
 	</job>
 	<job id="damarr_miningfleet_m_solid_small" name="{20204,5601}" startactive="false">
 		<orders>
@@ -1830,6 +1833,26 @@
 			<select faction="damarr" tags="[trader, container]" size="ship_l"/>
 			<loadout>
 				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="damarr" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="damarr_trader_escort_s_da" name="{20204,5501}" startactive="false">
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="maxbuy" value="3"/>
+			</order>
+		</orders>
+		<basket basket="all_container"/>
+		<category faction="damarr" tags="[freighter, trader]" size="ship_s"/>
+		<quota wing="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="damarr" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
 			</loadout>
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
