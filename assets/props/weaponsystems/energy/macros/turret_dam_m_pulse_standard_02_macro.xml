@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
 	<macro name="turret_dam_m_pulse_standard_02_macro" class="turret">
-		<component ref="turret_dam_m_pulse_02"/>
+		<component ref="turret_dam_m_beam_02"/>
 		<properties>
 			<identification name="{4816301,221}" basename="{4816301,289}" shortname="{4816301,275}" description="{4816301,302}"/>
 			<bullet class="bullet_turret_dam_m_pulse_standard_macro"/>
 			<rotationspeed max="104.125"/>
 			<rotationacceleration max="208.25"/>
 			<reload/>
-			<hull max="6500" threshold="0.2" integrated="0" />
+			<hull max="6500" threshold="0.2" integrated="0"/>
 		</properties>
 	</macro>
 </macros>

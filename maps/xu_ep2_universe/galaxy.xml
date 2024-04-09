@@ -97,11 +97,15 @@
 	<connection name="ClusterGateDAM8To10" ref="destination" path="../Cluster_DAM8_connection/Cluster_DAM8_Sector001_connection/ZoneDAM3_Cluster_DAM8_Sector001_connection/connection_ClusterGateDAM8To10">
 		<macro connection="destination" path="../../../../../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAM1_Cluster_10_Sector001_connection/connection_ClusterGate10ToDAM8" />
 	</connection>
+	<!-- Misc Connections -->
 	<connection name="ClusterGateDAM3To413" ref="destination" path="../Cluster_DAM3_connection/Cluster_DAM3_Sector001_connection/ZoneDAM1_Cluster_DAM3_Sector001_connection/connection_ClusterGateDAM3To413">
 		<macro connection="destination" path="../../../../../Cluster_413_connection/Cluster_413_Sector001_connection/ZoneDAM4_Cluster_413_Sector001_connection/connection_ClusterGate413ToDAM3" />
 	</connection>
 	<connection name="ClusterGate413To417" ref="destination" path="../Cluster_413_connection/Cluster_413_Sector001_connection/ZoneDAM1_Cluster_413_Sector001_connection/connection_ClusterGate413To417">
 		<macro connection="destination" path="../../../../../Cluster_417_connection/Cluster_417_Sector001_connection/ZoneDAM3_Cluster_417_Sector001_connection/connection_ClusterGate417To413" />
+	</connection>
+	<connection name="ClusterGateDAM8To39" ref="destination" path="../Cluster_DAM8_connection/Cluster_DAM8_Sector001_connection/ZoneDAM6_Cluster_DAM8_Sector001_connection/connection_ClusterGateDAM8To39">
+		<macro connection="destination" path="../../../../../Cluster_39_connection/Cluster_39_Sector001_connection/ZoneDAM3_Cluster_39_Sector001_connection/connection_ClusterGate39ToDAM8" />
 	</connection>
 	<!--<connection name="Cluster_AAA_connection" ref="clusters">
 		<offset>

@@ -190,6 +190,18 @@
         </offset>
         <macro ref="ZoneDAMc_Cluster_DAM4_Sector001_macro" connection="sector" />
 	  </connection>
+	  <connection name="ZoneDAMcw_Cluster_DAM4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="-125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDAMcw_Cluster_DAM4_Sector001_macro" connection="sector" />
+	  </connection>
+	  <connection name="ZoneDAMce_Cluster_DAM4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDAMce_Cluster_DAM4_Sector001_macro" connection="sector" />
+	  </connection>
     </connections>
   </macro>
   
@@ -391,6 +403,14 @@
           <position x="-50000" y="0" z="300000" />
         </offset>
         <macro ref="ZoneDAM1_Cluster_10_Sector001_macro" connection="sector" />
+      </connection>
+</add>
+<add sel="//macro[@name='Cluster_39_Sector001_macro']/connections">
+      <connection name="ZoneDAM3_Cluster_39_Sector001_connection" ref="zones">
+        <offset>
+          <position x="96583" y="0" z="-9628" />
+        </offset>
+        <macro ref="ZoneDAM3_Cluster_39_Sector001_macro" connection="sector" />
       </connection>
 </add>
 </diff>

@@ -141,6 +141,12 @@
 		<t id="1121">Amarr Equipment Dock</t>
 		<t id="1131">Amarr Shipyard</t>
 		<t id="1141">Amarr Wharf</t>
+		<!-- Deployables -->
+		<t id="1201">Stasis Webifier Tower Mk1</t>
+		<t id="1202">Stasis Webifier Tower Mk2</t>
+		<t id="1203">Deployed from a compartment of a ship, the stasis webifier tower is a static combat unit used primarily in the defence of an area of objective. Reduces the maximum speed of a ship by employing micro energy streams which effectively entangle the target temporarily, thereby slowing it down.</t>
+		<t id="1204">Stasis Webifier</t>
+		<t id="1205">Reduces the maximum speed of a ship by employing micro energy streams which effectively entangle the target temporarily, thereby slowing it down.</t>
 		<!-- BosoTaDA -->
 		<t id="9000">I have important news! It looks like the Amarr are trying to activate a gate. I have added new research.</t>
 		<t id="9001">Amarr Gate Activation</t>

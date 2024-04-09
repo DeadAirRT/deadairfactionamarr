@@ -13,12 +13,8 @@
 		<entry name="turret_dam_l_beam_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_multifrequency_mk1"/>
 		<entry name="turret_dam_l_beam_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_radio_mk1"/>
 		<entry name="turret_dam_l_beam_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_l_beam_standard_mk1"/>
-		<entry name="turret_dam_m_beam_01_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_multifrequency_mk1"/>
-		<entry name="turret_dam_m_beam_01_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_radio_mk1"/>
-		<entry name="turret_dam_m_beam_01_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01_standard_mk1"/>
-		<entry name="turret_dam_m_beam_02_multifrequency_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_multifrequency_mk1"/>
-		<entry name="turret_dam_m_beam_02_radio_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_radio_mk1"/>
-		<entry name="turret_dam_m_beam_02_standard_mk1" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02_standard_mk1"/>
+		<entry name="turret_dam_m_beam_01" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_01"/>
+		<entry name="turret_dam_m_beam_02" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\turret_dam_m_beam_02"/>
 		<entry name="weapon_dam_l" value="extensions\deadairfactionamarr\assets\props\weaponsystems\capital\weapon_dam_l"/>
 		<entry name="weapon_dam_xl" value="extensions\deadairfactionamarr\assets\props\weaponsystems\capital\weapon_dam_xl"/>
 		<entry name="weapon_dam_m_beam" value="extensions\deadairfactionamarr\assets\props\weaponsystems\energy\weapon_dam_m_beam"/>

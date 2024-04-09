@@ -112,5 +112,12 @@
 		<entry name="shield_dam_l_standard_01_mk1_macro" value="extensions\deadairfactionamarr\assets\props\surfaceelements\macros\shield_dam_l_standard_01_mk1_macro"/>
 		<entry name="shield_dam_l_standard_01_mk2_macro" value="extensions\deadairfactionamarr\assets\props\surfaceelements\macros\shield_dam_l_standard_01_mk2_macro"/>
 		<entry name="shield_dam_xl_standard_01_mk1_macro" value="extensions\deadairfactionamarr\assets\props\surfaceelements\macros\shield_dam_xl_standard_01_mk1_macro"/>
+		<!-- Deployables -->
+		<entry name="ship_gen_s_stasistower_01_a_macro" value="extensions\deadairfactionamarr\assets\units\size_s\macros\ship_gen_s_stasistower_01_a_macro"/>
+		<entry name="ship_gen_xs_stasistower_01_a_macro" value="extensions\deadairfactionamarr\assets\units\size_xs\macros\ship_gen_xs_stasistower_01_a_macro"/>
+		<entry name="bullet_gen_s_stasisweb_01_mk1_macro" value="extensions\deadairfactionamarr\assets\fx\weaponfx\macros\bullet_gen_s_stasisweb_01_mk1_macro"/>
+		<entry name="bullet_gen_s_stasisweb_01_mk2_macro" value="extensions\deadairfactionamarr\assets\fx\weaponfx\macros\bullet_gen_s_stasisweb_01_mk2_macro"/>
+		<entry name="weapon_gen_stasistower_01_mk1_macro" value="extensions\deadairfactionamarr\assets\props\weaponsystems\special\macros\weapon_gen_stasistower_01_mk1_macro"/>
+		<entry name="weapon_gen_stasistower_01_mk2_macro" value="extensions\deadairfactionamarr\assets\props\weaponsystems\special\macros\weapon_gen_stasistower_01_mk2_macro"/>
 	</add>
 </diff>

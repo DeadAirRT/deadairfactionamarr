@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
 	<macro name="turret_dam_m_pulse_radio_01_macro" class="turret" alias="turret_dam_m_pulse_radio_02_macro">
-		<component ref="turret_dam_m_pulse_01"/>
+		<component ref="turret_dam_m_beam_01"/>
 		<properties>
 			<identification name="{4816301,220}" basename="{4816301,289}" shortname="{4816301,274}" description="{4816301,301}"/>
 			<bullet class="bullet_turret_dam_m_pulse_radio_macro"/>

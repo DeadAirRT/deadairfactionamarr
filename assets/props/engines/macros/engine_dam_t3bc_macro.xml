@@ -4,8 +4,8 @@
 		<component ref="engine_dam_t3bc"/>
 		<properties>
 			<identification name="{4816301,280}" basename="{20107,1001}" shortname="{4816301,604}" description="{20107,3002}"/>
-			<boost duration="45" thrust="2" attack="10" release="2.5"/>
-			<travel charge="10" thrust="30" attack="20" release="18"/>
+			<boost duration="45" thrust="2" attack="20" release="5"/>
+			<travel charge="10" thrust="30" attack="10" release="9"/>
 			<thrust forward="5283" reverse="5591"/>
 			<angular/>
 			<hull max="25330" threshold="0.3"/>

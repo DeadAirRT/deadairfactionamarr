@@ -6,7 +6,7 @@
       <select faction="damarr" tags="traderpilot"/>
     </pilot>
     <drop ref="ship_large_civilian"/>
-    <people ref="argon_elite_freighter_crew"/>
+    <people ref="damarr_elite_freighter_crew"/>
   </ship>
   <ship id="damarr_resupplier_xl" group="dam_resupplier_xl">
     <category tags="[resupplier, mission]" faction="[damarr]" size="ship_xl"/>
@@ -14,7 +14,7 @@
       <select faction="damarr" tags="traderpilot"/>
     </pilot>
     <drop ref="ship_large_civilian"/>
-    <people ref="argon_elite_freighter_crew"/>
+    <people ref="damarr_elite_freighter_crew"/>
   </ship>
   <ship id="damarr_trader_container_l" group="dam_trader_container_l">
     <category tags="[trader, container, mission]" faction="[damarr]" size="ship_l"/>
@@ -23,7 +23,7 @@
     </pilot>
     <basket basket="all_container"/>
     <drop ref="ship_large_civilian"/>
-    <people ref="argon_veteran_freighter_crew"/>
+    <people ref="damarr_veteran_freighter_crew"/>
   </ship>
   <ship id="damarr_trader_container_m" group="dam_trader_container_m">
     <category tags="[trader, container, mission]" faction="[damarr]" size="ship_m"/>
@@ -32,7 +32,7 @@
     </pilot>
     <basket basket="all_container"/>
     <drop ref="ship_medium_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_trader_container_s" group="dam_trader_container_s">
     <category tags="[trader, container, mission]" faction="[damarr]" size="ship_s"/>
@@ -41,7 +41,7 @@
     </pilot>
     <basket basket="all_container"/>
     <drop ref="ship_small_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_solid_l" group="dam_miner_solid_l">
     <category tags="[miner, solid, mission]" faction="[damarr]" size="ship_l"/>
@@ -50,7 +50,7 @@
     </pilot>
     <basket basket="minerals"/>
     <drop ref="ship_large_civilian"/>
-    <people ref="argon_veteran_freighter_crew"/>
+    <people ref="damarr_veteran_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_liquid_l" group="dam_miner_liquid_l">
     <category tags="[miner, liquid, mission]" faction="[damarr]" size="ship_l"/>
@@ -59,7 +59,7 @@
     </pilot>
     <basket basket="gases"/>
     <drop ref="ship_large_civilian"/>
-    <people ref="argon_veteran_freighter_crew"/>
+    <people ref="damarr_veteran_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_solid_m" group="dam_miner_solid_m">
     <category tags="[miner, solid, mission]" faction="[damarr]" size="ship_m"/>
@@ -68,7 +68,7 @@
     </pilot>
     <basket basket="minerals"/>
     <drop ref="ship_medium_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_liquid_m" group="dam_miner_liquid_m">
     <category tags="[miner, liquid, mission]" faction="[damarr]" size="ship_m"/>
@@ -77,7 +77,7 @@
     </pilot>
     <basket basket="gases"/>
     <drop ref="ship_medium_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_solid_s" group="dam_miner_solid_s">
     <category tags="[miner, solid, mission]" faction="[damarr]" size="ship_s"/>
@@ -86,7 +86,7 @@
     </pilot>
     <basket basket="minerals"/>
     <drop ref="ship_small_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_solid_mixed"  group="dam_miner_solid_mixed">
     <category tags="[miner, solid, mixed]" faction="[damarr]"/>
@@ -96,7 +96,7 @@
     </pilot>
     <basket basket="minerals"/>
     <drop ref="ship_medium_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_miner_liquid_mixed"  group="dam_miner_liquid_mixed">
     <category tags="[miner, liquid, mixed]" faction="[damarr]"/>
@@ -106,7 +106,7 @@
     </pilot>
     <basket basket="gases"/>
     <drop ref="ship_medium_civilian"/>
-    <people ref="argon_freighter_crew"/>
+    <people ref="damarr_freighter_crew"/>
   </ship>
   <ship id="damarr_battleship_xl" group="dam_battleship_xl">
 	<category tags="[military, battleship, mission]" faction="[damarr]" size="ship_xl"/>
@@ -114,7 +114,7 @@
 	  <select faction="damarr" tags="fighterpilot"/>
 	</pilot>
 	<drop ref="ship_large_military"/>
-	<people ref="argon_elite_military_crew"/>
+	<people ref="damarr_elite_military_crew"/>
   </ship>
   <ship id="damarr_carrier_xl" group="dam_carrier_xl">
     <category tags="[military, carrier, mission]" faction="[damarr]" size="ship_xl"/>
@@ -122,7 +122,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_large_military"/>
-    <people ref="argon_elite_military_crew"/>
+    <people ref="damarr_elite_military_crew"/>
   </ship>
   <ship id="damarr_destroyer_l" group="dam_destroyer_l">
     <category tags="[military, destroyer, mission]" faction="[damarr]" size="ship_l"/>
@@ -130,7 +130,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_large_military"/>
-    <people ref="argon_elite_military_crew"/>
+    <people ref="damarr_elite_military_crew"/>
   </ship>
   <ship id="damarr_escort_l" group="dam_escort_l">
     <category tags="[military, escort, mission]" faction="[damarr]" size="ship_l"/>
@@ -138,7 +138,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_large_military"/>
-    <people ref="argon_elite_military_crew"/>
+    <people ref="damarr_elite_military_crew"/>
   </ship>
   <ship id="damarr_frigate_m" group="dam_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[damarr]" size="ship_m"/>
@@ -146,7 +146,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_veteran_military_crew"/>
+    <people ref="damarr_veteran_military_crew"/>
   </ship>
   <ship id="damarr_gunboat_m" group="dam_gunboat_m">
     <category tags="[military, medium, gunboat, mission]" faction="[damarr]" size="ship_m"/>
@@ -154,7 +154,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_veteran_military_crew"/>
+    <people ref="damarr_veteran_military_crew"/>
   </ship>
   <ship id="damarr_fighter_s" group="dam_fighter_s">
     <category tags="[military, fighter, selection, mission]" faction="[damarr]" size="ship_s"/>
@@ -162,7 +162,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_military_crew"/>
+    <people ref="damarr_military_crew"/>
   </ship>
   <ship id="damarr_fighter_heavy_s" group="dam_fighter_heavy_s">
     <category tags="[military, fighter, heavy, mission]" faction="[damarr]" size="ship_s"/>
@@ -170,7 +170,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_military_crew"/>
+    <people ref="damarr_military_crew"/>
   </ship>
   <ship id="damarr_fighter_light_s" group="dam_fighter_light_s">
     <category tags="[military, fighter, light, mission]" faction="[damarr]" size="ship_s"/>
@@ -178,7 +178,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_military_crew"/>
+    <people ref="damarr_military_crew"/>
   </ship>
   <ship id="damarr_scout_s" group="dam_scout_s">
     <category tags="[military, scout, light, mission]" faction="[damarr]" size="ship_s"/>
@@ -186,7 +186,7 @@
       <select faction="damarr" tags="fighterpilot"/>
     </pilot>
     <drop ref="ship_small_military"/>
-    <people ref="argon_military_crew"/>
+    <people ref="damarr_military_crew"/>
   </ship>
   
   <ship id="masstraffic_argon_dockarea_damarr" group="argon_dockarea_mass_traffic">

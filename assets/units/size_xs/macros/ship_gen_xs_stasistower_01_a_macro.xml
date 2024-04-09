@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ship_gen_xs_stasistower_01_a_macro" class="ship_xs">
+    <component ref="ship_gen_xs_lasertower_01" />
+    <properties>
+      <identification name="{4816301,1201}" description="{4816301,1203}" deployable="1" icon="mapob_lasertower_xs" type="lasertowers" />
+      <hull max="1001" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <physics mass="3">
+        <inertia pitch="1" yaw="1" roll="0.5" />
+        <drag forward="1" reverse="1" horizontal="1" vertical="1" pitch="1" yaw="1" roll="0.5" />
+      </physics>
+      <thruster tags="small" />
+      <loadouts mobile="0">
+        <loadout id="default">
+          <macros>
+            <engine macro="engine_gen_xs_static_macro" path="../con_engine_01" />
+            <weapon macro="weapon_gen_stasistower_01_mk1_macro" path="../con_weapon_001" optional="1" />
+          </macros>
+        </loadout>
+      </loadouts>
+      <ship type="lasertower" />
+      <relation>
+        <attack>
+          <multiplier value="0.01" />
+        </attack>
+        <kill>
+          <multiplier value="0.01" />
+        </kill>
+      </relation>
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_invisible_01_macro" connection="ship" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

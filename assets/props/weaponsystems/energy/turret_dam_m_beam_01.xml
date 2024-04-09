@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
-	<component name="turret_dam_m_beam_02_multifrequency_mk1" class="turret">
-		<source geometry="assets\props\WeaponSystems\energy\turret_arg_m_beam_02_mk1_data"/>
+	<component name="turret_dam_m_beam_01" class="turret">
+		<source geometry="assets\props\WeaponSystems\energy\turret_arg_m_beam_01_mk1_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
@@ -11,7 +11,7 @@
 		<connections>
 			<connection name="container" tags="contents" value="0"/>
 			<connection name="position" tags="position" value="1"/>
-			<connection name="Connection01" tags="part animation  ">
+			<connection name="Connection01" tags="part animation nocollision forceoutline ">
 				<offset/>
 				<animations>
 					<animation name="turret_inactive" start="0" end="0"/>
@@ -325,7 +325,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="con_beam_turret_01" tags="turret medium standard component hittable combat">
+			<connection name="con_beam_turret_01" tags="turret medium standard component unhittable combat">
 				<offset/>
 			</connection>
 		</connections>

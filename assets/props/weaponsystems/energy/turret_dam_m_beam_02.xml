@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <components>
-	<component name="turret_dam_m_beam_02_radio_mk1" class="turret">
+	<component name="turret_dam_m_beam_02" class="turret">
 		<source geometry="assets\props\WeaponSystems\energy\turret_arg_m_beam_02_mk1_data"/>
 		<layers>
 			<layer>

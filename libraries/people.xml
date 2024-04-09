@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//peopledefinitions">
+		<people id="damarr_freighter_crew">
+			<fillpercent min="50" max="75"/>
+			<person role="service" weight="80">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+		<people id="damarr_military_crew">
+			<fillpercent min="50" max="75"/>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="5">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+		<people id="damarr_veteran_freighter_crew">
+			<fillpercent min="75" max="100"/>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="80">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+		<people id="damarr_veteran_military_crew">
+			<fillpercent min="75" max="100"/>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="5">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+		<people id="damarr_elite_freighter_crew">
+			<fillpercent min="90" max="100"/>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="80">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+		<people id="damarr_elite_military_crew">
+			<fillpercent min="90" max="100"/>
+			<person role="service" weight="5">
+				<select faction="damarr" tags="[service, rookie]"/>
+			</person>
+			<person role="service" weight="20">
+				<select faction="damarr" tags="[service, regular]"/>
+			</person>
+			<person role="service" weight="40">
+				<select faction="damarr" tags="[service, veteran]"/>
+			</person>
+			<person role="service" weight="10">
+				<select faction="damarr" tags="[service, elite]"/>
+			</person>
+			<person role="marine" weight="1">
+				<select faction="damarr" tags="[marine, rookie]"/>
+			</person>
+			<person role="marine" weight="4">
+				<select faction="damarr" tags="[marine, regular]"/>
+			</person>
+			<person role="marine" weight="8">
+				<select faction="damarr" tags="[marine, veteran]"/>
+			</person>
+			<person role="marine" weight="2">
+				<select faction="damarr" tags="[marine, elite]"/>
+			</person>
+		</people>
+	</add>
+</diff>

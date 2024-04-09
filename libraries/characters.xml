@@ -1,265 +1,263 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <add sel="/characters">
-    <!--<character id="TEMP_manager_split_random" group="split.manager">
+	<add sel="/characters">
+		<!--<character id="TEMP_manager_split_random" group="split.manager">
       <category tags="[npc, crew, officer, trader, commander, fighterpilot, manager, marine, masstraffic, watchdog, pilot, traderpilot]" faction="[split, freesplit, faction.player]" race="split"/>
       <owner list="[split, freesplit]"/>
     </character>-->
-  <!-- Generic Argon Characters -->
-  <character id="trader_damarr_random" group="damarr.trader">
-    <category tags="[crew, pilot, aipilot, traderpilot, masstraffic]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="fighter_damarr_random" group="damarr.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="manager_damarr_random" group="damarr.trader">
-    <category tags="[crew, officer, manager]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <!-- regular -->
-  <character id="service_damarr_random" group="damarr.crew">
-    <category tags="[crew, service, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="4" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="marine_damarr_random" group="damarr.marine">
-    <category tags="[crew, marine, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="5" max="9"/>
-      <skill type="morale" min="1" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[damarr]"/>
-  </character>
-  <character id="fighter_damarr_regular_random" group="damarr.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="manager_damarr_regular_random" group="damarr.trader">
-    <category tags="[crew, officer, manager, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="5" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <!-- passengers -->
-  <character id="passenger_damarr_random" group="damarr.trader">
-    <category tags="[crew, passenger]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" exact="0"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="6"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="prisoner_damarr_random" group="argon.prisoner">
-    <category tags="[crew, prisoner]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" exact="0"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="6"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-
-  <!-- Rookies -->
-  <character id="service_damarr_random_rookie" group="damarr.crew">
-    <category tags="[crew, service, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" max="6"/>
-      <skill type="morale" min="2" max="5"/>
-      <skill type="piloting" min="1" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="marine_damarr_random_rookie" group="damarr.marine">
-    <category tags="[crew, marine, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="1" max="6"/>
-      <skill type="morale" min="1" max="4"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="1" max="2"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[damarr]"/>
-  </character>
-  <character id="fighter_damarr_random_rookie" group="damarr.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="4" max="6"/>
-      <skill type="morale" min="3" max="6"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <!-- Veteran -->
-  <character id="service_damarr_random_veteran" group="damarr.crew">
-    <category tags="[crew, service, veteran]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="morale" min="6" max="12"/>
-      <skill type="piloting" min="3" max="9"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="marine_damarr_random_veteran" group="damarr.marine">
-    <category tags="[crew, marine, veteran]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="6" max="12"/>
-      <skill type="morale" min="6" max="12"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="3" max="9"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[damarr]"/>
-  </character>
-  <!-- Elite -->
-  <character id="service_damarr_random_elite" group="damarr.crew">
-    <category tags="[crew, service, elite]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="piloting" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-      <skill type="boarding" min="6" max="12"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  <character id="marine_damarr_random_elite" group="damarr.marine">
-    <category tags="[crew, marine, elite]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="piloting" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-    </skills>
-	<owner list="[damarr]"/>
-  </character>
-  <character id="fighter_damarr_random_elite" group="damarr.pilot">
-    <category tags="[elitepilot]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-      <skill type="boarding" min="6" max="12"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-
-  <character id="platform_trader_damarr_random" group="damarr.trader">
-    <category tags="[trader, licencetrader]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-    <stock ref="'default_trader'" />
-  </character>
-  <character id="ship_trader_damarr_random" group="damarr.trader">
-    <category tags="[trader, shiptrader]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-    <stock ref="'default_trader'" />
-  </character>
-  <character id="shadyguy_damarr_random" group="damarr.marine">
-    <category tags="[shadyguy]" faction="[damarr, faction.player]" race="argon" />
-    <skills>
-      <skill type="piloting" min="8" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[damarr]"/>
-    <stock ref="'default_shadyguy'" />
-  </character>
-  <!-- TODO FACTION REP -->
-  <character id="factionrepresentative_damarr" group="damarr.factionrepresentative">
-    <category tags="[factionrepresentative]" faction="damarr" race="argon"/>
-    <skills>
-      <skill type="management" exact="15"/>
-      <skill type="morale" exact="15"/>
-      <skill type="boarding" exact="0"/>
-      <skill type="engineering" exact="15"/>
-      <skill type="piloting" exact="15"/>
-    </skills>
-    <page exact="10106"/>
-    <owner exact="damarr"/>
-  </character>
-  <!-- Casually clothed platform NPCs -->
-  <character id="damarr_casual" group="damarr.trader">
-    <category tags="[casual]" faction="[damarr, faction.player]" race="argon"/>
-    <skills>
-      <skill type="morale" max="3"/>
-      <skill type="piloting" max="3"/>
-      <skill type="engineering" max="3"/>
-      <skill type="management" max="3"/>
-      <skill type="boarding" max="3"/>
-    </skills>
-    <owner list="[damarr]"/>
-  </character>
-  </add>
+		<!-- Generic Argon Characters -->
+		<character id="trader_damarr_random" group="damarr.trader">
+			<category tags="[crew, pilot, aipilot, traderpilot, masstraffic]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="fighter_damarr_random" group="damarr.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="manager_damarr_random" group="damarr.trader">
+			<category tags="[crew, officer, manager]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<!-- regular -->
+		<character id="service_damarr_random" group="damarr.crew">
+			<category tags="[crew, service, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="4" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="marine_damarr_random" group="damarr.marine">
+			<category tags="[crew, marine, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="5" max="9"/>
+				<skill type="morale" min="1" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="fighter_damarr_regular_random" group="damarr.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="manager_damarr_regular_random" group="damarr.trader">
+			<category tags="[crew, officer, manager, regular, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="5" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<!-- passengers -->
+		<character id="passenger_damarr_random" group="damarr.trader">
+			<category tags="[crew, passenger]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" exact="0"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="6"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="prisoner_damarr_random" group="argon.prisoner">
+			<category tags="[crew, prisoner]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" exact="0"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="6"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<!-- Rookies -->
+		<character id="service_damarr_random_rookie" group="damarr.crew">
+			<category tags="[crew, service, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" max="6"/>
+				<skill type="morale" min="2" max="5"/>
+				<skill type="piloting" min="1" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="marine_damarr_random_rookie" group="damarr.marine">
+			<category tags="[crew, marine, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="1" max="6"/>
+				<skill type="morale" min="1" max="4"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="1" max="2"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="fighter_damarr_random_rookie" group="damarr.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, rookie, recruitable]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="4" max="6"/>
+				<skill type="morale" min="3" max="6"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<!-- Veteran -->
+		<character id="service_damarr_random_veteran" group="damarr.crew">
+			<category tags="[crew, service, veteran]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="morale" min="6" max="12"/>
+				<skill type="piloting" min="3" max="9"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="marine_damarr_random_veteran" group="damarr.marine">
+			<category tags="[crew, marine, veteran]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="6" max="12"/>
+				<skill type="morale" min="6" max="12"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="3" max="9"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<!-- Elite -->
+		<character id="service_damarr_random_elite" group="damarr.crew">
+			<category tags="[crew, service, elite]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="piloting" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+				<skill type="boarding" min="6" max="12"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="marine_damarr_random_elite" group="damarr.marine">
+			<category tags="[crew, marine, elite]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="piloting" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="fighter_damarr_random_elite" group="damarr.pilot">
+			<category tags="[elitepilot]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+				<skill type="boarding" min="6" max="12"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+		<character id="platform_trader_damarr_random" group="damarr.trader">
+			<category tags="[trader, licencetrader]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+			<stock ref="'default_trader'"/>
+		</character>
+		<character id="ship_trader_damarr_random" group="damarr.trader">
+			<category tags="[trader, shiptrader]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+			<stock ref="'default_trader'"/>
+		</character>
+		<character id="shadyguy_damarr_random" group="damarr.marine">
+			<category tags="[shadyguy]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="8" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[damarr]"/>
+			<stock ref="'default_shadyguy'"/>
+		</character>
+		<!-- TODO FACTION REP -->
+		<character id="factionrepresentative_damarr" group="damarr.factionrepresentative">
+			<category tags="[factionrepresentative]" faction="damarr" race="argon"/>
+			<skills>
+				<skill type="management" exact="15"/>
+				<skill type="morale" exact="15"/>
+				<skill type="boarding" exact="0"/>
+				<skill type="engineering" exact="15"/>
+				<skill type="piloting" exact="15"/>
+			</skills>
+			<page exact="10106"/>
+			<owner exact="damarr"/>
+		</character>
+		<!-- Casually clothed platform NPCs -->
+		<character id="damarr_casual" group="damarr.trader">
+			<category tags="[casual]" faction="[damarr, faction.player]" race="argon"/>
+			<skills>
+				<skill type="morale" max="3"/>
+				<skill type="piloting" max="3"/>
+				<skill type="engineering" max="3"/>
+				<skill type="management" max="3"/>
+				<skill type="boarding" max="3"/>
+			</skills>
+			<owner list="[damarr]"/>
+		</character>
+	</add>
 </diff>

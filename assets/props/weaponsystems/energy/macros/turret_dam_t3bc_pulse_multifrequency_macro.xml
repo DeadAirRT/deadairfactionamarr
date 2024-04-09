@@ -8,7 +8,7 @@
 			<rotationspeed max="12.5"/>
 			<rotationacceleration max="25"/>
 			<reload/>
-			<hull max="6500" threshold="0.2" integrated="0" />
+			<hull max="6500" threshold="0.2" integrated="0"/>
 		</properties>
 	</macro>
 </macros>
