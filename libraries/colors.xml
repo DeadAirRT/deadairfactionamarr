@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/colormap/colors">
+		<color id="color_damarr" r="212" g="175" b="55" a="255"/>
+	</add>
+	<add sel="/colormap/mappings">
+		<mapping id="faction_damarr" ref="color_damarr"/>
+	</add>
+</diff>

@@ -127,6 +127,15 @@
 	<add sel="/wares/ware[@id='module_gen_build_xl_01']">
 		<owner faction="damarr"/>
 	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_01']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_02']">
+		<owner faction="damarr"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_03']">
+		<owner faction="damarr"/>
+	</add>
 	<add sel="/wares/ware[@id='module_gen_equip_dockarea_m_01']">
 		<owner faction="damarr"/>
 	</add>
@@ -356,6 +365,7 @@
 			<component ref="turret_dam_l_beam_multifrequency_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_beam_radio_mk1" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -370,6 +380,7 @@
 			<component ref="turret_dam_l_beam_radio_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_beam_standard_mk1" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -384,6 +395,7 @@
 			<component ref="turret_dam_l_beam_standard_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_multifrequency_mk1" name="{4816301,206}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -398,6 +410,7 @@
 			<component ref="turret_dam_m_beam_01_multifrequency_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_multifrequency_mk1" name="{4816301,206}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -412,6 +425,7 @@
 			<component ref="turret_dam_m_beam_02_multifrequency_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_radio_mk1" name="{4816301,207}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -426,6 +440,7 @@
 			<component ref="turret_dam_m_beam_01_radio_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_radio_mk1" name="{4816301,207}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -440,6 +455,7 @@
 			<component ref="turret_dam_m_beam_02_radio_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_01_standard_mk1" name="{4816301,208}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -454,6 +470,7 @@
 			<component ref="turret_dam_m_beam_01_standard_mk1_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_beam_02_standard_mk1" name="{4816301,208}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -468,6 +485,7 @@
 			<component ref="turret_dam_m_beam_02_standard_mk1_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_multifrequency" name="{4816301,200}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -482,6 +500,7 @@
 			<component ref="turret_dam_t3bc_beam_multifrequency_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_radio" name="{4816301,202}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -496,6 +515,7 @@
 			<component ref="turret_dam_t3bc_beam_radio_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_beam_standard" name="{4816301,204}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -510,6 +530,7 @@
 			<component ref="turret_dam_t3bc_beam_standard_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="engine_dam_t3bc" name="{4816301,280}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
@@ -545,6 +566,7 @@
 			<component ref="weapon_dam_l_multifrequency_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_l_radio" name="{4816301,210}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -559,6 +581,7 @@
 			<component ref="weapon_dam_l_radio_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_l_standard" name="{4816301,211}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -573,6 +596,7 @@
 			<component ref="weapon_dam_l_standard_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_xl" name="{4816301,212}" description="{4816301,303}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -601,6 +625,7 @@
 			<component ref="weapon_dam_m_beam_multifrequency_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_m_radio" name="{4816301,207}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -615,6 +640,7 @@
 			<component ref="weapon_dam_m_beam_radio_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_m_standard" name="{4816301,208}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -629,6 +655,7 @@
 			<component ref="weapon_dam_m_beam_standard_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_multifrequency" name="{4816301,213}" description="{4816301,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -643,6 +670,7 @@
 			<component ref="weapon_dam_s_beam_multifrequency_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_radio" name="{4816301,214}" description="{4816301,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -657,6 +685,7 @@
 			<component ref="weapon_dam_s_beam_radio_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="weapon_dam_s_standard" name="{4816301,215}" description="{4816301,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -671,6 +700,7 @@
 			<component ref="weapon_dam_s_beam_standard_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -685,6 +715,7 @@
 			<component ref="turret_dam_l_pulse_multifrequency_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -699,6 +730,7 @@
 			<component ref="turret_dam_l_pulse_radio_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_l_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -713,6 +745,7 @@
 			<component ref="turret_dam_l_pulse_standard_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_multifrequency_01" name="{4816301,219}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -727,6 +760,7 @@
 			<component ref="turret_dam_m_pulse_multifrequency_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_multifrequency_02" name="{4816301,219}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -741,6 +775,7 @@
 			<component ref="turret_dam_m_pulse_multifrequency_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_radio_01" name="{4816301,220}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -755,6 +790,7 @@
 			<component ref="turret_dam_m_pulse_radio_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_radio_02" name="{4816301,220}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -769,6 +805,7 @@
 			<component ref="turret_dam_m_pulse_radio_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_standard_01" name="{4816301,221}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -783,6 +820,7 @@
 			<component ref="turret_dam_m_pulse_standard_01_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_m_pulse_standard_02" name="{4816301,221}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -797,6 +835,7 @@
 			<component ref="turret_dam_m_pulse_standard_02_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_multifrequency" name="{4816301,216}" description="{4816301,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -811,6 +850,7 @@
 			<component ref="turret_dam_t3bc_pulse_multifrequency_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="damarr"/>
+			<use threshold="1.0"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_radio" name="{4816301,217}" description="{4816301,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -825,6 +865,7 @@
 			<component ref="turret_dam_t3bc_pulse_radio_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="damarr"/>
+			<use threshold="0.7"/>
 			<owner faction="damarr"/>
 		</ware>
 		<ware id="turret_dam_t3bc_pulse_standard" name="{4816301,218}" description="{4816301,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -839,6 +880,7 @@
 			<component ref="turret_dam_t3bc_pulse_standard_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="damarr"/>
+			<use threshold="0.5"/>
 			<owner faction="damarr"/>
 		</ware>
 	</add>
@@ -1418,72 +1460,75 @@
 		<ware id="paintmod_damarr" name="{4816301,131}" description="" transport="inventory" volume="1" tags="inventory paintmod">
 			<price min="2500" average="3000" max="3500"/>
 		</ware>
+		<ware id="paintmod_damarr_pureblack" name="{4816301,132}" description="" transport="inventory" volume="1" tags="inventory paintmod">
+			<price min="2500" average="3000" max="3500"/>
+		</ware>
 	</add>
 	<!-- Stasis Web Sentry -->
 	<add sel="//wares">
-	<ware id="ship_gen_s_stasistower_01_a" name="{4816301,1202}" description="{4816301,1203}" transport="equipment" volume="1" tags="equipment lasertower">
-		<price min="25110" average="29540" max="33972"/>
-		<production time="5" amount="1" method="default" name="{20206,101}">
-			<primary>
-				<ware ware="dronecomponents" amount="2"/>
-				<ware ware="energycells" amount="50"/>
-				<ware ware="smartchips" amount="20"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild">
-			<primary>
-				<ware ware="energycells" amount="70"/>
-				<ware ware="ore" amount="10"/>
-				<ware ware="silicon" amount="4"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="terran" name="{20206,901}">
-			<primary>
-				<ware ware="energycells" amount="500"/>
-				<ware ware="metallicmicrolattice" amount="51"/>
-				<ware ware="siliconcarbide" amount="3"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="closedloop" name="{20206,1201}">
-			<primary>
-				<ware ware="claytronics" amount="1"/>
-				<ware ware="energycells" amount="30"/>
-				<ware ware="hullparts" amount="6"/>
-			</primary>
-		</production>
-		<component ref="ship_gen_s_stasistower_01_a_macro"/>
-		<use threshold="0"/>
-	</ware>
-	<ware id="ship_gen_xs_stasistower_01_a" name="{4816301,1201}" description="{4816301,1203}" transport="equipment" volume="1" tags="equipment lasertower">
-		<price min="16066" average="18900" max="21736"/>
-		<production time="5" amount="1" method="default" name="{20206,101}">
-			<primary>
-				<ware ware="dronecomponents" amount="1"/>
-				<ware ware="energycells" amount="50"/>
-				<ware ware="smartchips" amount="20"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild">
-			<primary>
-				<ware ware="energycells" amount="26"/>
-				<ware ware="ore" amount="5"/>
-				<ware ware="silicon" amount="2"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="terran" name="{20206,901}">
-			<primary>
-				<ware ware="energycells" amount="500"/>
-				<ware ware="metallicmicrolattice" amount="30"/>
-			</primary>
-		</production>
-		<production time="5" amount="1" method="closedloop" name="{20206,1201}">
-			<primary>
-				<ware ware="energycells" amount="126"/>
-				<ware ware="hullparts" amount="4"/>
-			</primary>
-		</production>
-		<component ref="ship_gen_xs_stasistower_01_a_macro"/>
-		<use threshold="0"/>
-	</ware>
+		<ware id="ship_gen_s_stasistower_01_a" name="{4816301,1202}" description="{4816301,1203}" transport="equipment" volume="1" tags="equipment lasertower">
+			<price min="25110" average="29540" max="33972"/>
+			<production time="5" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="dronecomponents" amount="2"/>
+					<ware ware="energycells" amount="50"/>
+					<ware ware="smartchips" amount="20"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild">
+				<primary>
+					<ware ware="energycells" amount="70"/>
+					<ware ware="ore" amount="10"/>
+					<ware ware="silicon" amount="4"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="500"/>
+					<ware ware="metallicmicrolattice" amount="51"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="1"/>
+					<ware ware="energycells" amount="30"/>
+					<ware ware="hullparts" amount="6"/>
+				</primary>
+			</production>
+			<component ref="ship_gen_s_stasistower_01_a_macro"/>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ship_gen_xs_stasistower_01_a" name="{4816301,1201}" description="{4816301,1203}" transport="equipment" volume="1" tags="equipment lasertower">
+			<price min="16066" average="18900" max="21736"/>
+			<production time="5" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="dronecomponents" amount="1"/>
+					<ware ware="energycells" amount="50"/>
+					<ware ware="smartchips" amount="20"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="xenon" name="{20206,601}" tags="noplayerbuild">
+				<primary>
+					<ware ware="energycells" amount="26"/>
+					<ware ware="ore" amount="5"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="500"/>
+					<ware ware="metallicmicrolattice" amount="30"/>
+				</primary>
+			</production>
+			<production time="5" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="126"/>
+					<ware ware="hullparts" amount="4"/>
+				</primary>
+			</production>
+			<component ref="ship_gen_xs_stasistower_01_a_macro"/>
+			<use threshold="0"/>
+		</ware>
 	</add>
 </diff>

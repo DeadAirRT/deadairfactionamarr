@@ -4,9 +4,9 @@
 		<component ref="bullet_dam_l_beam_multifrequency_mk1"/>
 		<properties>
 			<bullet speed="2.997925e+08" lifetime="1.0" range="10000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
-			<heat value="183"/>
+			<heat value="366"/>
 			<reload time="5"/>
-			<damage value="7221.68" shield="3486.33"/>
+			<damage value="5777.34" shield="2789.06"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>

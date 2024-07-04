@@ -4,124 +4,124 @@
 		<influencelist id="da_stasisweb_1" name="{4816301,1204}" description="{20230,2012}">
 			<influences classes="ship_s">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.975" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 			</influences>
 			<influences classes="ship_m">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.985" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 			</influences>
 			<influences classes="ship_l ship_xl">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.995" endvalue="1" attackduration="3" sustainduration="4" releaseduration="3"/>
 				</influence>
 			</influences>
 		</influencelist>
 		<influencelist id="da_stasisweb_2" name="{4816301,1204}" description="{20230,2012}">
 			<influences classes="ship_s">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.96" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 			</influences>
 			<influences classes="ship_m">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.97" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 			</influences>
 			<influences classes="ship_l ship_xl">
 				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="maxstrafespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="forwardacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="reverseacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="1" sustainduration="1" releaseduration="1"/>
+					<profile type="envelope" startvalue="1" sustainvalue="0.98" endvalue="1" attackduration="3" sustainduration="6" releaseduration="3"/>
 				</influence>
 			</influences>
 		</influencelist>

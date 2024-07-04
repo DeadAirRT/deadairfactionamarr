@@ -22,4 +22,12 @@
 			<macro ref="ZoneDAM3_Cluster_417_Sector001_macro" connection="sector"/>
 		</connection>
 	</add>
+	<add sel="//macro[@name='Cluster_407_Sector001_macro']/connections">
+		<connection name="ZoneDAM3_Cluster_407_Sector001_connection" ref="zones">
+			<offset>
+				<position x="111000" y="0" z="-25000"/>
+			</offset>
+			<macro ref="ZoneDAM3_Cluster_407_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
 </diff>

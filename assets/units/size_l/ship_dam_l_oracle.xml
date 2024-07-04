@@ -350,13 +350,13 @@
 					<position x="16.534299999999998" y="-175.545" z="11.4686"/>
 				</offset>
 			</connection>
-			<connection name="con_l_weapon_1" tags="weapon large standard weapon_dam_l symmetry symmetry_left">
+			<connection name="con_l_weapon_1" tags="weapon large standard weapon_dam_l symmetry symmetry_1 symmetry_left">
 				<offset>
 					<position x="-35.6178" y="-18.378700000000002" z="29.485099999999996"/>
 					<quaternion qw="0.7071068" qx="0" qy="0" qz="0.7071068"/>
 				</offset>
 			</connection>
-			<connection name="con_l_weapon_2" tags="weapon large standard weapon_dam_l symmetry symmetry_right">
+			<connection name="con_l_weapon_2" tags="weapon large standard weapon_dam_l symmetry symmetry_1 symmetry_right">
 				<offset>
 					<position x="35.6178" y="-18.378700000000002" z="29.485099999999996"/>
 					<quaternion qw="0.7071068" qx="0" qy="0" qz="-0.7071068"/>

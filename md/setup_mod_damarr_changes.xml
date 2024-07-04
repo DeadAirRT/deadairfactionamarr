@@ -89,9 +89,9 @@
 			</conditions>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
-					<set_value name="$LocMacroList" exact="[macro.ZoneDAM6_Cluster_DAM8_Sector001_macro,macro.ZoneDAM3_Cluster_39_Sector001_macro]"/>
+					<set_value name="$LocMacroList" exact="[macro.ZoneDAM5_Cluster_DAM1_Sector001_macro,macro.ZoneDAM2_Cluster_20_Sector001_macro,macro.ZoneDAM6_Cluster_DAM8_Sector001_macro,macro.Zone003_Cluster_10_Sector001_macro,macro.ZoneDAM2_Cluster_DAM8_Sector001_macro,macro.ZoneDAM6_Cluster_20_Sector001_macro]"/>
 					<do_if value="faction.split?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAM1_Cluster_DAM3_Sector001_macro,macro.ZoneDAM4_Cluster_413_Sector001_macro,macro.ZoneDAM1_Cluster_413_Sector001_macro,macro.ZoneDAM3_Cluster_417_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAM1_Cluster_DAM1_Sector001_macro,macro.ZoneDAM3_Cluster_407_Sector001_macro,macro.ZoneDAM1_Cluster_DAM3_Sector001_macro,macro.ZoneDAM4_Cluster_413_Sector001_macro,macro.ZoneDAM1_Cluster_413_Sector001_macro,macro.ZoneDAM3_Cluster_417_Sector001_macro]"/>
 					</do_if>
 					<do_for_each name="$LocMacro" in="$LocMacroList">
 						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">

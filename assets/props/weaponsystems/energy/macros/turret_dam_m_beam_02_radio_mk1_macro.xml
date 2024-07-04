@@ -5,8 +5,8 @@
 		<properties>
 			<identification name="{4816301,207}" basename="{4816301,291}" shortname="{4816301,271}" description="{4816301,301}"/>
 			<bullet class="bullet_dam_m_beam_radio_mk1_macro"/>
-			<rotationspeed max="83.3"/>
-			<rotationacceleration max="166.6"/>
+			<rotationspeed max="41.6"/>
+			<rotationacceleration max="83.3"/>
 			<reload/>
 			<hull max="6500" threshold="0.2" integrated="0"/>
 		</properties>

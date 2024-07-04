@@ -13,7 +13,7 @@
 				</distance>
 			</damagecurves>
 			<reload time="2.5"/>
-			<damage value="1135.55" shield="597.66"/>
+			<damage value="908.44" shield="478.13"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>

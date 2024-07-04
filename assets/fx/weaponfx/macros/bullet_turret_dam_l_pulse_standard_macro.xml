@@ -5,7 +5,7 @@
 		<properties>
 			<bullet speed="2.997925e+08" lifetime="0.5" range="16000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
 			<reload time="2.5"/>
-			<damage value="4542.19" shield="2390.63"/>
+			<damage value="3633.75" shield="1912.5"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>

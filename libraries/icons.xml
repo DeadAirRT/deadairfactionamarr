@@ -4,6 +4,7 @@
 	<icon name="upgrade_*" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_dam_*" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="paintmod_damarr" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\paintmods\paintmod_damarr" height="256" width="256"/>
+	<icon name="paintmod_*" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\paintmods\*.tga" height="256" width="256"/>
 	<icon name="upgrade_ishield_dam_l_abaddon_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dam_l_armageddon_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dam_l_harbinger_macro" texture="extensions\deadairfactionamarr\assets\fx\gui\textures\upgrades\ishield_dam_macro" height="256" width="256"/>

@@ -5,8 +5,8 @@
 		<properties>
 			<identification name="{4816301,219}" basename="{4816301,289}" shortname="{4816301,273}" description="{4816301,300}"/>
 			<bullet class="bullet_turret_dam_m_pulse_multifrequency_macro"/>
-			<rotationspeed max="104.125"/>
-			<rotationacceleration max="208.25"/>
+			<rotationspeed max="52"/>
+			<rotationacceleration max="104"/>
 			<reload/>
 			<hull max="6500" threshold="0.2" integrated="0"/>
 		</properties>

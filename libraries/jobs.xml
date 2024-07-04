@@ -49,8 +49,11 @@
 	<job id="damarr_food_trader_s" name="{20204,1801}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="foodrations"/>
@@ -69,8 +72,11 @@
 	<job id="damarr_medical_trader_s" name="{20204,10011}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="medicalsupplies"/>
@@ -89,8 +95,11 @@
 	<job id="damarr_energycell_trader_l" name="{20204,101}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -109,8 +118,11 @@
 	<job id="damarr_energycell_trader_m" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -129,8 +141,11 @@
 	<job id="damarr_energycell_trader_s" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -218,8 +233,11 @@
 	<job id="damarr_construction_trader_m" name="{20204,401}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="construction_stations"/>
@@ -1305,7 +1323,7 @@
 	<!-- Mass Traffic -->
 	<job id="masstraffic_damarr_police">
 		<task task="masstraffic.police"/>
-		<location class="station" policefaction="damarr"/>
+		<location class="station" faction="damarr" stationfaction="damarr" policefaction="damarr"/>
 		<quota station="1"/>
 		<masstraffic ref="masstraffic_argon_police_damarr">
 			<owner exact="faction.damarr" overridenpc="true"/>
@@ -1327,7 +1345,7 @@
 			</order>
 		</orders>
 		<category faction="damarr" tags="[daexpedition]" size="ship_xl"/>
-		<quota galaxy="2" maxgalaxy="2"/>
+		<quota galaxy="1" maxgalaxy="1"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="damarr" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
 		<ship>
@@ -1339,8 +1357,10 @@
 		</ship>
 		<subordinates>
 			<subordinate job="damarr_destroyer_escort_l" assignment="attack" group="1"/>
-			<subordinate job="damarr_fighter_escort_s_carrier" assignment="attack" group="2"/>
-			<subordinate job="damarr_frigate_escort_m" assignment="attack" group="3"/>
+			<subordinate job="damarr_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="damarr_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="damarr_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="damarr_fighter_escort_s_carrier" assignment="interception" group="4"/>
 		</subordinates>
 	</job>
 	<job id="damarr_trader_escort_s_da" name="{20204,5501}" startactive="false">
@@ -1834,7 +1854,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DALTraderTagdamarr_L_job" name="{33232474,2255}">
+	<job id="damarr_DALTraderTagdamarr_L_job" name="{33232474,2255}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1842,6 +1862,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1857,7 +1879,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DAMTraderTagdamarr_M_job" name="{33232474,2256}">
+	<job id="damarr_DAMTraderTagdamarr_M_job" name="{33232474,2256}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1865,6 +1887,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1880,7 +1904,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DALMinerTagdamarr_L_job" name="{33232474,2257}">
+	<job id="damarr_DALMinerTagdamarr_L_job" name="{33232474,2257}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1903,7 +1927,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DAMMinerTagdamarr_M_job" name="{33232474,2258}">
+	<job id="damarr_DAMMinerTagdamarr_M_job" name="{33232474,2258}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1926,7 +1950,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DALGasMinerTagdamarr_L_job" name="{33232474,2259}">
+	<job id="damarr_DALGasMinerTagdamarr_L_job" name="{33232474,2259}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1949,7 +1973,7 @@
 			<owner exact="damarr" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="damarr_DAMGasMinerTagdamarr_M_job" name="{33232474,2260}">
+	<job id="damarr_DAMGasMinerTagdamarr_M_job" name="{33232474,2260}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">

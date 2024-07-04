@@ -6,29 +6,30 @@
 			<properties>
 				<models>
 					<model type="head" selection="random">
-						<select index="1" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
-						<select index="2" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+						<select index="1" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
 					</model>
 					<model type="torso" selection="random">
 						<select index="1" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_pilot_suit_01"/>
 						<select index="2" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_crew_uniform_01"/>
 					</model>
 					<model type="props" selection="random">
-						<select index="1" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
-						<select index="2" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
-						<select index="3" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="1" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
 						<select index="4" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
 						<select index="5" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
 						<select index="6" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
-						<select index="7" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
-						<select index="8" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
-						<select index="9" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="7" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
 						<select index="10" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
 						<select index="11" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
 						<select index="12" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
-						<select index="13" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
-						<select index="14" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
-						<select index="15" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="13" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
 						<select index="16" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
 						<select index="17" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
 						<select index="18" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
@@ -41,33 +42,341 @@
 			<properties>
 				<models>
 					<model type="head" selection="random">
-						<select index="1" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
-						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+						<select index="1" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
 					</model>
 					<model type="torso" selection="random">
-						<select index="1" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_pilot_suit_01"/>
-						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_crew_uniform_01"/>
+						<select index="1" weight="80" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_pilot_suit_01"/>
+						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_crew_uniform_01"/>
 					</model>
 					<model type="props" selection="random">
-						<select index="1" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
-						<select index="2" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
-						<select index="3" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="1" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
 						<select index="4" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
 						<select index="5" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
 						<select index="6" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
-						<select index="7" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
-						<select index="8" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
-						<select index="9" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="7" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
 						<select index="10" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
 						<select index="11" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
 						<select index="12" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
-						<select index="13" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
-						<select index="14" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
-						<select index="15" weight="10" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="13" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="40" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="20" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
 						<select index="16" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
 						<select index="17" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
 						<select index="18" weight="1" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
 					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_female_cau_pilot_macro" class="npc" ref="character_terran_female_cau_base_01_macro">
+			<component ref="character_terran_female_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_pilot_suit_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_pilot_suit_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_f_pilot_suit_01"/>
+					</model>
+					<model type="props" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="4" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
+						<select index="5" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
+						<select index="6" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
+						<select index="7" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="10" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
+						<select index="11" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
+						<select index="12" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
+						<select index="13" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="16" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
+						<select index="17" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
+						<select index="18" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_male_cau_pilot_macro" class="npc" ref="character_terran_male_cau_base_01_macro">
+			<component ref="character_terran_male_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_manager_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_pilot_suit_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_m_pilot_suit_01"/>
+					</model>
+					<model type="props1" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_blonde_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_black_01"/>
+						<select index="4" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_green_01"/>
+					</model>
+					<model type="props2" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_light"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_light"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_dark"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_dark"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_female_asi_pilot_macro" class="npc" ref="character_terran_female_asi_base_01_macro">
+			<component ref="character_terran_female_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_pilot_suit_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_pilot_suit_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_f_pilot_suit_01"/>
+					</model>
+					<model type="props" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="4" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
+						<select index="5" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
+						<select index="6" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
+						<select index="7" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="10" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
+						<select index="11" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
+						<select index="12" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
+						<select index="13" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="16" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
+						<select index="17" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
+						<select index="18" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_male_asi_pilot_macro" class="npc" ref="character_terran_male_asi_base_01_macro">
+			<component ref="character_terran_male_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_manager_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_pilot_suit_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_m_pilot_suit_01"/>
+					</model>
+					<model type="props1" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_01"/>
+						<select index="2" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_blonde_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_black_01"/>
+						<select index="4" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_green_01"/>
+					</model>
+					<model type="props2" selection="random">
+						<select index="1" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_light"/>
+						<select index="2" weight="5" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_light"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_dark"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_dark"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_female_cau_crew_macro" class="npc" ref="character_terran_female_cau_base_01_macro">
+			<component ref="character_terran_female_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_crew_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_crew_uniform_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_f_jacket_01"/>
+					</model>
+					<model type="props" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
+						<select index="5" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
+						<select index="6" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
+						<select index="7" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="10" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
+						<select index="11" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
+						<select index="12" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
+						<select index="13" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="16" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
+						<select index="17" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
+						<select index="18" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_male_cau_crew_macro" class="npc" ref="character_terran_male_cau_base_01_macro">
+			<component ref="character_terran_male_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_crew_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_m_crew_uniform_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_m_jacket_01"/>
+					</model>
+					<model type="props1" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_blonde_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_black_01"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_green_01"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+					<model type="props2" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_light"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_light"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_dark"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_dark"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_female_asi_crew_macro" class="npc" ref="character_terran_female_asi_base_01_macro">
+			<component ref="character_terran_female_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_f_crew_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_crew_uniform_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_f_jacket_01"/>
+					</model>
+					<model type="props" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_black_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_blonde_01"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_ginger_01"/>
+						<select index="5" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_pink_01"/>
+						<select index="6" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bun_green_01"/>
+						<select index="7" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_01"/>
+						<select index="8" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_black_01"/>
+						<select index="9" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_blonde_01"/>
+						<select index="10" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_ginger_01"/>
+						<select index="11" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_pink_01"/>
+						<select index="12" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_short_green_01"/>
+						<select index="13" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_01"/>
+						<select index="14" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_black_01"/>
+						<select index="15" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
+						<select index="16" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_ginger_01"/>
+						<select index="17" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_pink_01"/>
+						<select index="18" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_green_01"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_male_asi_crew_macro" class="npc" ref="character_terran_male_asi_base_01_macro">
+			<component ref="character_terran_male_01"/>
+			<properties>
+				<models>
+					<model type="head" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_mudeyes_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_darkeyes_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_m_cau_blend_head_blueeyes_01"/>
+					</model>
+					<model type="torso" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_m_crew_uniform_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_pio_m_crew_uniform_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/yaki/bodies/char_yki_m_jacket_01"/>
+					</model>
+					<model type="props1" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_01"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_blonde_01"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_black_01"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_hair_cau_green_01"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+					<model type="props2" selection="random">
+						<select index="1" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_light"/>
+						<select index="2" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_light"/>
+						<select index="3" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_scruff_dark"/>
+						<select index="4" weight="100" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_m_beard_goatee_dark"/>
+						<select index="5" weight="100" ref="none"/>
+					</model>
+				</models>
+			</properties>
+		</macro>
+		<macro name="character_damarr_female_leader_macro" class="npc">
+			<component ref="character_terran_female_01"/>
+			<properties>
+				<identification name="{4816301,127}" race="terran" female="true"/>
+				<eyepositions lefteye="eye_position_dummy_l" righteye="eye_position_dummy_r">
+					<eyeposition type="x" exact="0"/>
+					<eyeposition type="y" exact="0"/>
+					<eyeposition type="z" exact="0"/>
+				</eyepositions>
+				<facemods>
+					<facemod type="race_cau" name="Ter_f_cau.mt_race_cau" exact="1.0"/>
+					<facemod type="race_afr" name="Ter_f_cau.mt_race_afr" exact="0.1"/>
+					<facemod type="race_asi" name="Ter_f_cau.mt_race_asi" exact="0.2"/>
+					<facemod type="age" name="Ter_f_cau.mt_age" exact="0.0"/>
+					<facemod type="therica" name="Ter_f_cau.mt_therica" exact="-0.2"/>
+					<facemod type="brow_inner" name="Ter_f_cau.mt_brow_inner" exact="-0.1"/>
+					<facemod type="brow_outer" name="Ter_f_cau.mt_brow_outer" exact="0.1"/>
+					<facemod type="eye_corner_inner" name="Ter_f_cau.mt_eye_corner_inner+" exact="0.0"/>
+					<facemod type="eye_corner_outer" name="Ter_f_cau.mt_eye_corner_outer" exact="0.0"/>
+					<facemod type="nose_size" name="Ter_f_cau.mt_nose_size" exact="-0.5"/>
+					<facemod type="lip_lower_thick" name="Ter_f_cau.mt_lip_lower_thick" exact="0.2"/>
+					<facemod type="lip_upper_thick" name="Ter_f_cau.mt_lip_upper_thick" exact="0.2"/>
+				</facemods>
+				<bonemods>
+					<bonemod type="Legs" exact="1.0">
+						<bones>
+							<bone name="Bip01 Pelvis"/>
+						</bones>
+					</bonemod>
+				</bonemods>
+				<models>
+					<model type="head" ref="extensions/ego_dlc_terran/assets/characters/terran/heads/char_ter_f_cau_blend_head_blueeyes_01"/>
+					<model type="torso" ref="extensions/ego_dlc_terran/assets/characters/terran/bodies/char_ter_f_pilot_suit_01"/>
+					<model type="props" ref="extensions/ego_dlc_terran/assets/characters/terran/props/Ter_f_hair_bangs_blonde_01"/>
 				</models>
 			</properties>
 		</macro>
