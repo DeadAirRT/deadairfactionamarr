@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.damarr}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.advancedelectronics}.{2}" exact="15"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.dronecomponents}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.energycells}.{2}" exact="8"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.engineparts}.{2}" exact="10"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.fieldcoils}.{2}" exact="1"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.foodrations}.{2}" exact="13"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.graphene}.{2}" exact="7"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.hullparts}.{2}" exact="10"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.medicalsupplies}.{2}" exact="17"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.microchips}.{2}" exact="19"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.missilecomponents}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.plasmaconductors}.{2}" exact="8"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.refinedmetals}.{2}" exact="11"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.scanningarrays}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.shieldcomponents}.{2}" exact="5"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.siliconwafers}.{2}" exact="16"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.smartchips}.{2}" exact="15"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.spices}.{2}" exact="4"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.superfluidcoolant}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.turretcomponents}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.water}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.weaponcomponents}.{2}" exact="5"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.wheat}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.da_mil_schematics}.{2}" exact="8"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.damarr}.{ware.da_laborunion_contracts}.{2}" exact="16"/>
+		</do_if>
+	</add>
+</diff>

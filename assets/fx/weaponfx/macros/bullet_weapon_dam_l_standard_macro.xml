@@ -3,18 +3,10 @@
 	<macro name="bullet_weapon_dam_l_standard_macro" class="bullet">
 		<component ref="bullet_dam_l_beam_standard_mk1"/>
 		<properties>
-			<bullet speed="2.997925e+08" lifetime="1.0" range="20000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
-			<heat value="556"/>
-			<damagecurves>
-				<distance>
-					<point position="0" value="0.75"/>
-					<point position="0.49" value="0.75"/>
-					<point position="0.5" value="1"/>
-					<point position="1" value="1"/>
-				</distance>
-			</damagecurves>
+			<bullet speed="2.997925e+08" lifetime="1.0" range="18000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1"/>
+			<heat value="0"/>
 			<reload time="5"/>
-			<damage value="3785.16" shield="1992.19"/>
+			<damage value="4455" shield="2227.5"/>
 			<effects>
 				<impact ref="impact_gen_m_beam_01_mk1" inside="impact_gen_m_beam_01_mk1_inside"/>
 				<bigobjectimpact ref="impact_gen_m_beam_01_mk1_bigobject" inside="impact_gen_m_beam_01_mk1_bigobject_inside"/>
